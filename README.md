@@ -1,0 +1,2 @@
+# SOTAFreq
+SOTA frequencies assigment
