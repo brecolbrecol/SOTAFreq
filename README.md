@@ -22,8 +22,8 @@ First aproximation: LOS iif d >= 250 km.
 1. Assign center frequency (CF) for HLS, indicating hightest local summit (sic).
 1. Build set of LOS summits around HLS, ordered by altitude: that's the current local summits set (LSS).
 1. Build set of local free frequencies (LFF), given free frequencies list minus know local used frequencies.
-1. Assign `CF ± i*50 KHz` frequency for each one of LSS without frequency assigned.
-1. If there are no free frequencies left, assign `CF ± i*25 KHz`
-1. If there are no free frequencies left, assign `CF ± i*12.5 KHz`
+1. Assign `CF ± i*50 KHz, i ∈ ℕ` frequency for each one of LSS without frequency assigned.
+1. If there are no free frequencies left, assign `CF ± i*25 KHz, i ∈ { 2n - 1 | n ∈ N }`
+1. If there are no free frequencies left, assign `CF ± i*12.5 KHz, { 2n − 1 | n ∈ N }`
 1. While exists summits without frequency, go to point 4.
 
