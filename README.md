@@ -13,12 +13,13 @@ It would be great having a list of known local used frequencies for each zone.
 
 First aproximation: `LOS iif d ≤ 250 km`.
 
-## Mass center frequency assign algorithm
+# Frequency assign algorithm
 
 1. Retrieve all summits data from [SOTA API](https://api2.sota.org.uk/docs/index.html) (lat, lon, altitude, name, points).
-1. Order by altitude.
 1. Calculate «mass center» of summits without frequency assigned.
-1. Choose highest close to mass center (250km radius) without frequency assigned summit, it will be for now HLS (highest local summit).
+1. Calculate summit fit coefficient (SFC) for each one.
+1. Order by SFC.
+1. Choose highest SFC summit without frequency assigned summit, it will be for now HLS (highest local summit).
 1. Assign center frequency (CF) for HLS, indicating hightest local summit (sic).
 1. Build set of LOS summits around HLS, ordered by altitude: that's the current local summits set (LSS).
 1. Build set of local free frequencies (LFF), given free frequencies list minus know local used frequencies.
@@ -26,7 +27,11 @@ First aproximation: `LOS iif d ≤ 250 km`.
 1. If there are no more LFF, assign `CF ± i*25 KHz, i ∈ { 2n - 1 | n ∈ N }`
 1. If there are no more LFF, assign `CF ± i*12.5 KHz, i ∈ { 2n − 1 | n ∈ N }`
 1. If there are no more LFF, skip summit (for now).
-1. While exists summits without frequency, go to point 3.
+1. While exists summits without frequency, go to point 5.
+
+### SFC calculus
+
+`SFC = altitude / distance_to_mass_center`
 
 
 ## Summit suggestion
