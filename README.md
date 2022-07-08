@@ -11,7 +11,7 @@ It would be great having a list of known local used frequencies for each zone.
 
 ## LOS calculus
 
-First aproximation: LOS iif d >= 250 km.
+First aproximation: `LOS iif d ≤ 250 km`.
 
 ## Mass center algorithm
 
