@@ -18,7 +18,7 @@ First aproximation: `LOS iif d ≤ 250 km`.
 1. Retrieve all summits data from [SOTA API](https://api2.sota.org.uk/docs/index.html) (lat, lon, altitude, name, points).
 1. Order by altitude.
 1. Calculate «mass center» of all summits.
-1. Choose highest closed to mass center without frequency assigned summit, it will be for now HLS (highest local summit).
+1. Choose highest closed to mass center (250km radius) without frequency assigned summit, it will be for now HLS (highest local summit).
 1. Assign center frequency (CF) for HLS, indicating hightest local summit (sic).
 1. Build set of LOS summits around HLS, ordered by altitude: that's the current local summits set (LSS).
 1. Build set of local free frequencies (LFF), given free frequencies list minus know local used frequencies.
@@ -27,3 +27,7 @@ First aproximation: `LOS iif d ≤ 250 km`.
 1. If there are no free frequencies left, assign `CF ± i*12.5 KHz, { 2n − 1 | n ∈ N }`
 1. While exists summits without frequency, go to point 4.
 
+
+## Summit suggestion
+
+Given the list of first choosen summits and the list of all activable summits, suggest not-covered zones.
