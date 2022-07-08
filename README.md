@@ -13,7 +13,7 @@ It would be great having a list of known local used frequencies for each zone.
 
 First aproximation: `LOS iif d ≤ 250 km`.
 
-## Mass center algorithm
+## Mass center frequency assign algorithm
 
 1. Retrieve all summits data from [SOTA API](https://api2.sota.org.uk/docs/index.html) (lat, lon, altitude, name, points).
 1. Order by altitude.
