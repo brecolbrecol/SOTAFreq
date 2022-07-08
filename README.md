@@ -1,2 +1,29 @@
 # SOTAFreq
 SOTA frequencies assigment
+
+This repo tries to solve the problem of several concurrent in time line of sight (LOS) VHF activations, proposing free frequencies for each of the activators.
+
+## Available frequencies
+
+We propose leaving free 145.500 (calling frequency) so any amateur radio operator, activity participant or not, could use it as meeting point.
+
+It would be great having a list of known local used frequencies for each zone.
+
+## LOS calculus
+
+First aproximation: LOS iif d >= 250 km.
+
+## Mass center algorithm
+
+1. Retrieve all summits data from [SOTA API](https://api2.sota.org.uk/docs/index.html) (lat, lon, altitude, name, points).
+1. Order by altitude.
+1. Calculate «mass center» of all summits.
+1. Choose highest closed to mass center without frequency assigned summit, it will be for now HLS (highest local summit).
+1. Assign center frequency (CF) for HLS, indicating hightest local summit (sic).
+1. Build set of LOS summits around HLS, ordered by altitude: that's the current local summits set (LSS).
+1. Build set of local free frequencies (LFF), given free frequencies list minus know local used frequencies.
+1. Assign `CF ± i*50 KHz` frequency for each one of LSS without frequency assigned.
+1. If there are no free frequencies left, assign `CF ± i*25 KHz`
+1. If there are no free frequencies left, assign `CF ± i*12.5 KHz`
+1. While exists summits without frequency, go to point 4.
+
