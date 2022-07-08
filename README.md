@@ -31,7 +31,7 @@ First aproximation: `LOS iif d ≤ 250 km`.
 
 ### SFC calculus
 
-`SFC = altitude - distance_to_mass_center*5`
+`SFC = altitude (in meters) - distance_to_mass_center (in Km) * 6.378`
 
 
 ## Summit suggestion
