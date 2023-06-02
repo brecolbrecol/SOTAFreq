@@ -1,7 +1,7 @@
 # SOTAFreq
 SOTA frequencies assigment
 
-This repo tries to solve the problem of several concurrent in time line of sight (LOS) VHF activations, proposing free frequencies for each of the activators.
+This repo tries to solve the problem of several concurrent in time line of sight (LOS) VHF activations, proposing free frequencies for each activator.
 
 ## Available frequencies
 
