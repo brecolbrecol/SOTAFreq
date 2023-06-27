@@ -18,6 +18,7 @@ class Summit:
         self.name = self.api_data_raw["name"]
         self.region = self.api_data_raw["regionName"]
         self.reference = self.api_data_raw["summitCode"]
+        self.points = self.api_data_raw["points"]
         self.valid = self.api_data_raw["valid"]
         
 if __name__ == "__main__":
