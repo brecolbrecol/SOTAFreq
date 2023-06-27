@@ -13,7 +13,21 @@ It would be great having a list of known local used frequencies for each zone.
 
 First aproximation: `LOS iif d ≤ 250 km`.
 
-# Frequency assign algorithm
+## Minimun distance algorithm
+
+1. Choose the highest summit.
+1. Compute list of LOS summits.
+1. Warn if cardinality is greater than available frequencies.
+1. Assign frequencies.
+1. Choose next highest non-assignated summit.
+1. Compute list of LOS summits.
+1. List free frequencies.
+1. Warn if cardinality of non-freq-assigned summits are greater than free frequencies.
+1. Assigin frequencies
+1. Repeat until all summits have frequencies assigned.
+
+
+## Frequency assign algorithm
 
 1. Retrieve all summits data from [SOTA API](https://api2.sota.org.uk/docs/index.html) (lat, lon, altitude, name, points).
 1. Calculate «mass center» of summits without frequency assigned.
