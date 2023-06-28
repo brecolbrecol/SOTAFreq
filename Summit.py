@@ -47,7 +47,7 @@ class Summit:
 
     def load_attributes_from_api(self):
         api_data = urllib.request.urlopen("https://api2.sota.org.uk/api/summits/" + self.reference ).read()
-        return json.loads(api_data)
+        return json.loads(api_data.decode('utf-8'))
     
     def __init__(self, reference, activator=None, freq=None):
         if reference in Summit.summits:
