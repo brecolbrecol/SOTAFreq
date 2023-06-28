@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import urllib.request
 import json
 import simplekml
@@ -72,11 +73,11 @@ class Summit:
         Summit.summits[self.reference] = self
         
 if __name__ == "__main__":
-    print("Free frequencies before assigment: " + str(Summit.available_frequencies))
+    print("Free frequencies before assigment: (" + str(len(Summit.available_frequencies)) + ") " + str(Summit.available_frequencies))
     summits = Summit.parse_csv()
-    print("Free frequencies after assigment: " + str(Summit.available_frequencies))
+    print("Free frequencies after assigment: (" + str(len(Summit.available_frequencies)) + ") " + str(Summit.available_frequencies))
     
-    print("Generating KML... ", end='')
+    print("\nGenerating KML... ", end='')
     Summit.create_kml_of_summits()
     print("DONE")
     
@@ -84,7 +85,7 @@ if __name__ == "__main__":
     Summit.generate_csv_frequencies()
     print("DONE")
 
-    print("\nSUMMITS")
+    print("\nTOTAL SUMMITS: " + str(len(Summit.summits.values())))
     for summit in Summit.summits.values():
         print(summit.reference + ": " + summit.freq, end=', ')
     print("")
