@@ -10,10 +10,13 @@ https://fly.io/
 - [Cómo insertar un mapa con API CNIG](https://imasgal.com/insertar-un-mapa-con-api-cnig/)
 - [github](https://github.com/IGN-CNIG/API-CNIG)
 
+## Alerts integration
+
+* [ ] get summmit day alerts and get frequency and callsign from it
+* [ ] warn if callsign is different from list
 
 ## Minimun requirements
 
-* Receives xls with  { summit, activator(s) }
 * Expects xls (csv)  { summit, frequency, activator(s) }
 
 The important (necessary) part is the Summit, activator is optional.
@@ -24,10 +27,6 @@ The important (necessary) part is the Summit, activator is optional.
 * [ ] Calculate distance to summit's mother 
 * [ ] given summits array, generate map
 
-## Alerts integration
-
-* [ ] get summmit day alerts and check if callsign is OK
-* [ ] put alert for callsign? → better not
 
 ## Parser participants data
 
