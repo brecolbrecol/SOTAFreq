@@ -33,7 +33,6 @@ class Summit:
                     print("INFO: new " + reference + " activators: " + Summit.summits[reference].activator)
                 else:
                     Summit(reference, activator=activator)
-            print("Free frequencies: " + str(Summit.available_frequencies))
             
     @staticmethod
     def generate_csv_frequencies():
@@ -67,13 +66,25 @@ class Summit:
 
         if Summit.available_frequencies:
             self.freq = Summit.available_frequencies.pop()
-            print(self.reference + ";" + self.freq)
         else:
-            print("WARNING: no free frequencies for " + self.reference)
+            print("WARNING: no free frequency for " + self.reference) # ToDo: implement freq reuse algorithm 
 
         Summit.summits[self.reference] = self
         
 if __name__ == "__main__":
+    print("Free frequencies before assigment: " + str(Summit.available_frequencies))
     summits = Summit.parse_csv()
+    print("Free frequencies after assigment: " + str(Summit.available_frequencies))
+    
+    print("Generating KML... ", end='')
     Summit.create_kml_of_summits()
+    print("DONE")
+    
+    print("Generating CSV... ", end='')
     Summit.generate_csv_frequencies()
+    print("DONE")
+
+    print("\nSUMMITS")
+    for summit in Summit.summits.values():
+        print(summit.reference + ": " + summit.freq, end=', ')
+    print("")
