@@ -36,6 +36,8 @@ class Summit:
         return json.loads(api_data)
         
     def __init__(self, reference, activator=None, freq=None):
+        if reference in Summit.summits:
+            print("WARNING: " + reference  + " already exists, loosing data") # ToDo: add activator / frequency to summit
         self.reference = reference # Summit reference
         self.activator = activator
         self.api_data_raw = self.load_attributes_from_api() # All data retreived from API
