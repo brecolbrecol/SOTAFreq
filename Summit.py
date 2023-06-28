@@ -28,16 +28,30 @@ class Summit:
             for row in reader:
                 reference = row['Número de la cima (si ya la has elegido)']
                 activator = row['TU INDICATIVO con el que participarás (en mayúsculas)']
-                Summit(reference, activator=activator)
+                if reference in Summit.summits:
+                    Summit.summits[reference].activator += ", " + activator
+                    print("INFO: new " + reference + " activators: " + Summit.summits[reference].activator)
+                else:
+                    Summit(reference, activator=activator)
             print("Free frequencies: " + str(Summit.available_frequencies))
+            
+    @staticmethod
+    def generate_csv_frequencies():
+        with open('frecuencias_asignadas.csv', 'w') as f_assigned_freqs:
+            fieldnames = ['SOTA_reference', 'frequency', 'call_sign(s)']
+            writer = csv.DictWriter(f_assigned_freqs, fieldnames=fieldnames)
+
+            writer.writeheader()
+            for summit in Summit.summits.values():
+                writer.writerow({'SOTA_reference': summit.reference, 'frequency': summit.freq, 'call_sign(s)': summit.activator})
 
     def load_attributes_from_api(self):
         api_data = urllib.request.urlopen("https://api2.sota.org.uk/api/summits/" + self.reference ).read()
         return json.loads(api_data)
-        
+    
     def __init__(self, reference, activator=None, freq=None):
         if reference in Summit.summits:
-            print("WARNING: " + reference  + " already exists, loosing data") # ToDo: add activator / frequency to summit
+            raise Exception("ERROR: " + reference  + " already exists")
         self.reference = reference # Summit reference
         self.activator = activator
         self.api_data_raw = self.load_attributes_from_api() # All data retreived from API
@@ -62,3 +76,4 @@ class Summit:
 if __name__ == "__main__":
     summits = Summit.parse_csv()
     Summit.create_kml_of_summits()
+    Summit.generate_csv_frequencies()
