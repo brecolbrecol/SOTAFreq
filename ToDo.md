@@ -10,9 +10,13 @@ https://fly.io/
 - [Cómo insertar un mapa con API CNIG](https://imasgal.com/insertar-un-mapa-con-api-cnig/)
 - [github](https://github.com/IGN-CNIG/API-CNIG)
 
+## Color
+
+* [x] Change color (icon) based on points → done
+
 ## Alerts integration
 
-* [ ] get summmit day alerts and get frequency and callsign from it
+* [ ] get summmit day alerts and show frequency and callsign from it
 * [ ] warn if callsign is different from list
 
 ## Minimun requirements
@@ -35,3 +39,7 @@ The important (necessary) part is the Summit, activator is optional.
     - Methods:
         - Distance to summit 
     - Retreives atributes data from API: `curl https://api2.sota.org.uk/api/summits/ea4/md-007`
+
+## Icons
+
+* [green-circle](https://icons8.com/icon/set/green-circle/emoji)
