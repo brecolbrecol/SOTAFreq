@@ -39,7 +39,7 @@ class Summit:
     def generate_csv_frequencies():
         with open('frecuencias_asignadas.csv', 'w') as f_assigned_freqs:
             fieldnames = ['SOTA_reference', 'frequency', 'call_sign(s)']
-            writer = csv.DictWriter(f_assigned_freqs, fieldnames=fieldnames)
+            writer = csv.DictWriter(f_assigned_freqs, fieldnames=fieldnames, delimiter=";")
 
             writer.writeheader()
             for summit in Summit.summits.values():
