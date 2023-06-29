@@ -42,7 +42,8 @@ class Summit:
             writer = csv.DictWriter(f_assigned_freqs, fieldnames=fieldnames, delimiter=";")
 
             writer.writeheader()
-            for summit in Summit.summits.values():
+            for summit_reference in sorted(Summit.summits.keys()):
+                summit = Summit.summits[summit_reference]
                 writer.writerow({'SOTA_reference': summit.reference, 'frequency': summit.freq, 'call_sign(s)': summit.activator})
 
     def load_attributes_from_api(self):
