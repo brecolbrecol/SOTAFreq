@@ -17,6 +17,7 @@
 		<link href="https://componentes.cnig.es/api-core/plugins/measurebar/measurebar.ol.min.css" rel="stylesheet" />
 	        <link href="https://componentes.cnig.es/api-core/plugins/queryattributes/queryattributes.ol.min.css" rel="stylesheet" />
 		 <link href="https://componentes.cnig.es/api-core/plugins/buffer/buffer.ol.min.css" rel="stylesheet" />
+		  <link href="https://componentes.cnig.es/api-core/plugins/topographicprofile/topographicprofile.ol.min.css" rel="stylesheet" />
 		<style type="text/css">
 			html,
 			body {
@@ -44,6 +45,7 @@
 		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/measurebar/measurebar.ol.min.js"></script>
        	        <script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/queryattributes/queryattributes.ol.min.js"></script>
 		 <script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/buffer/buffer.ol.min.js"></script>
+		 <script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/topographicprofile/topographicprofile.ol.min.js"></script>
 		<script type="text/javascript">
 // Configuración del mapa
 const mapjs = M.map({
@@ -128,6 +130,8 @@ const mpbase = new M.plugin.BackImgLayer({
 	],
 });
 
+const mpPerfilTopo = new M.plugin.Topographicprofile();
+
 const mpmeasure = new M.plugin.MeasureBar({
 	  position: 'TR',
 	  collapsed: true,
@@ -174,6 +178,7 @@ mapjs.addPlugin(mp3);
 mapjs.addPlugin(mp8);
 mapjs.addPlugin(mpmeasure);
 mapjs.addPlugin(mparea);
+mapjs.addPlugin(mpPerfilTopo);
 mapjs.addPlugin(mptable);
 		</script>
 	</body>
