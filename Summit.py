@@ -3,6 +3,7 @@ import urllib.request
 import json
 import simplekml
 import csv
+import pyproj
 from pprint import pprint
 
 class Summit:
@@ -49,6 +50,12 @@ class Summit:
             for summit_reference in sorted(Summit.summits.keys()):
                 summit = Summit.summits[summit_reference]
                 writer.writerow({'SOTA_reference': summit.reference, 'frequency': summit.freq, 'call_sign(s)': summit.activator})
+                
+    def calculate_bearings(self, other_summit):
+        geodesic = pyproj.Geod(ellps='WGS84')
+        fwd_azimuth, back_azimuth, distance = geodesic.inv(self.longitude, self.latitude, other_summit.longitude, other_summit.latitude)
+        return [fwd_azimuth, back_azimuth, distance]
+        
 
     def load_attributes_from_api(self):
         api_data = urllib.request.urlopen("https://api2.sota.org.uk/api/summits/" + self.reference ).read()
@@ -94,3 +101,16 @@ if __name__ == "__main__":
     for summit in Summit.summits.values():
         print(summit.reference + ": " + summit.freq, end=', ')
     print("")
+
+    print("\nGenerating bearings... ", end='')
+    with open('bearing.txt', 'w') as f_bearing:
+        f_bearing.write("# BEARINGS\n")
+        for summit_reference in sorted(Summit.summits.keys()):
+            summit = Summit.summits[summit_reference]
+            f_bearing.write("\n## FROM " + summit_reference + " - " + summit.name + "\n")
+            f_bearing.write("SUMMIT REF\tFORWARD\tBACK\tFREQUENCY\tDISTANCE\n")
+            for other_summit_reference in sorted(Summit.summits.keys()):
+                other_summit = Summit.summits[other_summit_reference]
+                fwd_azimuth, back_azimuth, distance = summit.calculate_bearings(other_summit)
+                f_bearing.write(other_summit_reference + "\t" + str(round(fwd_azimuth,2)) + "\t" + str(round(back_azimuth,2)) + "\t" + other_summit.freq + " MHz\t" + str(round((distance/1000),2)) + "km\n")
+    print("DONE")

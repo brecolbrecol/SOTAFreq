@@ -23,6 +23,9 @@ https://fly.io/
 
 * [ ] GeoJSON, try listing more atributes.
 
+## Chasers
+* [ ] Give chasers the possibility to calculate azimuths providing locator
+
 ## Popup
 
 * [This popups displays better at mobile browser](https://componentes.cnig.es/GaleriaEjemplos_APICNIG/ejemplos/popupPersonalizadoOL01.html)
