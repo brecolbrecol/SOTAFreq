@@ -23,6 +23,10 @@ https://fly.io/
 
 * [ ] GeoJSON, try listing more atributes.
 
+## Popup
+
+* [This popups displays better at mobile browser](https://componentes.cnig.es/GaleriaEjemplos_APICNIG/ejemplos/popupPersonalizadoOL01.html)
+
 ## Minimun requirements
 
 * Expects xls (csv)  { summit, frequency, activator(s) }
