@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="5">
+            <IconStyle id="6">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="7">
+                    <href>https://sota.jorge.red/pointers/icon4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="10">
+            <IconStyle id="11">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="12">
+                    <href>https://sota.jorge.red/pointers/icon6.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="15">
+            <IconStyle id="16">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="17">
+                    <href>https://sota.jorge.red/pointers/icon6.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="20">
+            <IconStyle id="21">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="22">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="25">
+            <IconStyle id="26">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="27">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="30">
+            <IconStyle id="31">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="32">
+                    <href>https://sota.jorge.red/pointers/icon4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="35">
+            <IconStyle id="36">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="37">
+                    <href>https://sota.jorge.red/pointers/icon4.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="40">
+            <IconStyle id="41">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="42">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="45">
+            <IconStyle id="46">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="47">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="50">
+            <IconStyle id="51">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="52">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="55">
+            <IconStyle id="56">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="57">
+                    <href>https://sota.jorge.red/pointers/icon6.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="60">
+            <IconStyle id="61">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="62">
+                    <href>https://sota.jorge.red/pointers/icon8.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="65">
+            <IconStyle id="66">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="67">
+                    <href>https://sota.jorge.red/pointers/icon6.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="70">
+            <IconStyle id="71">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="72">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="75">
+            <IconStyle id="76">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="77">
+                    <href>https://sota.jorge.red/pointers/icon8.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="80">
+            <IconStyle id="81">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="82">
+                    <href>https://sota.jorge.red/pointers/icon2.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="85">
+            <IconStyle id="86">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="87">
+                    <href>https://sota.jorge.red/pointers/icon1.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="90">
+            <IconStyle id="91">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="92">
+                    <href>https://sota.jorge.red/pointers/icon2.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="95">
+            <IconStyle id="96">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="97">
+                    <href>https://sota.jorge.red/pointers/icon8.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Placemark id="4">
+            <name>EA5/MU-018</name>
+            <description>Pila (1263m) - EA5IEA , 145.550</description>
+            <styleUrl>#5</styleUrl>
+            <Point id="3">
+                <coordinates>-1.1896,38.2643,1263</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="9">
+            <name>EA2/SS-001</name>
+            <description>Aitxuri (1549m) - EA2CSC, 144.625</description>
+            <styleUrl>#10</styleUrl>
+            <Point id="8">
+                <coordinates>-2.3299,42.9587,1549</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="14">
+            <name>EA2/VI-001</name>
+            <description>Gorbeia (1481m) - EA2AQ, EA2FAO/P, 144.550</description>
+            <styleUrl>#15</styleUrl>
+            <Point id="13">
+                <coordinates>-2.7812,43.0339,1481</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="19">
+            <name>EA4/MD-002</name>
+            <description>Cabezas de Hierro (2380m) - EA4HTC, 145.200</description>
+            <styleUrl>#20</styleUrl>
+            <Point id="18">
+                <coordinates>-3.933,40.7994,2380</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="24">
+            <name>EA3/GI-002</name>
+            <description>Puigmal (2909m) - EA3IKB, 145.350</description>
+            <styleUrl>#25</styleUrl>
+            <Point id="23">
+                <coordinates>2.1168,42.3833,2909</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="29">
+            <name>EA7/MA-085</name>
+            <description>El Castillo (939m) - EA7FY, 145.475</description>
+            <styleUrl>#30</styleUrl>
+            <Point id="28">
+                <coordinates>-5.4313,36.5731,939</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="34">
+            <name>EA2/NV-073</name>
+            <description>Mortxe (1122m) - EB2FDT/P, 144.525</description>
+            <styleUrl>#35</styleUrl>
+            <Point id="33">
+                <coordinates>-1.8424,42.838,1122</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="39">
+            <name>EA1/LR-001</name>
+            <description>San Lorenzo (2271m) - EA2EUS, 145.275</description>
+            <styleUrl>#40</styleUrl>
+            <Point id="38">
+                <coordinates>-2.97261,42.24259,2271</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="44">
+            <name>EA7/GR-002</name>
+            <description>Veleta (3395m) - EA7GV, EC7ZT/P, 145.525</description>
+            <styleUrl>#45</styleUrl>
+            <Point id="43">
+                <coordinates>-3.3657,37.056,3395</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="49">
+            <name>EA4/GU-001</name>
+            <description>Pico del Lobo (2272m) - EA4HIH, 145.575</description>
+            <styleUrl>#50</styleUrl>
+            <Point id="48">
+                <coordinates>-3.4663,41.1832,2272</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="54">
+            <name>EA1/BU-016</name>
+            <description>Picon Blanco (1520m) - EA2BO, 144.725</description>
+            <styleUrl>#55</styleUrl>
+            <Point id="53">
+                <coordinates>-3.54569,43.13081,1520</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="59">
+            <name>EA1/SG-017</name>
+            <description>Cabeza Líjar (1822m) - EA4GDK, 145.225</description>
+            <styleUrl>#60</styleUrl>
+            <Point id="58">
+                <coordinates>-4.16033,40.68955,1822</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="64">
+            <name>EA3/BC-021</name>
+            <description>Cap de Confós (1924m) - EA3HP, 145.375</description>
+            <styleUrl>#65</styleUrl>
+            <Point id="63">
+                <coordinates>1.7962,42.1622,1924</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="69">
+            <name>EA1/SG-016</name>
+            <description>Montón de Trigo (2157m) - EA4HFO, 145.250</description>
+            <styleUrl>#70</styleUrl>
+            <Point id="68">
+                <coordinates>-4.07112,40.80009,2157</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="74">
+            <name>EA6/MA-007</name>
+            <description>Puig d'Alfabia (1067m) - EA6EE, 145.300</description>
+            <styleUrl>#75</styleUrl>
+            <Point id="73">
+                <coordinates>2.7351,39.7444,1067</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="79">
+            <name>EA1/PO-022</name>
+            <description>Alto de Castrove (609m) - EA1FMJ, 144.775</description>
+            <styleUrl>#80</styleUrl>
+            <Point id="78">
+                <coordinates>-8.69277,42.47833,609</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="84">
+            <name>EA3/TA-021</name>
+            <description>Puig de Formigosa (991m) - EA3GRW, 145.325</description>
+            <styleUrl>#85</styleUrl>
+            <Point id="83">
+                <coordinates>1.442,41.4217,991</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="89">
+            <name>EA2/SS-009</name>
+            <description>Txurruko Punta (989m) - EA2EVJ, 144.575</description>
+            <styleUrl>#90</styleUrl>
+            <Point id="88">
+                <coordinates>-2.2502,42.9203,989</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="94">
+            <name>EA1/LE-093</name>
+            <description>Gilbo (1675m) - EA4HGT, 144.750</description>
+            <styleUrl>#95</styleUrl>
+            <Point id="93">
+                <coordinates>-5.04607,42.95798,1675</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+    <NetworkLinkControl>
+        <minRefreshPeriod>1</minRefreshPeriod>
+    </NetworkLinkControl>
+</kml>

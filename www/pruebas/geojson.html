@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>         
+  <html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="cnig" content="yes">
+      <title>visualizador base</title>
+      <!-- Estilo de la API -->
+      <link type="text/css" rel="stylesheet" href="https://componentes.cnig.es/api-core/assets/css/apiign.ol.min.css">
+  
+      <style type="text/css">
+          html,
+          body {
+              margin: 0;
+              padding: 0;
+              height: 100%;
+              overflow: hidden;
+          }
+          .m-popup{
+            background: #837d7e;
+          }
+          .m-geojson-content{
+            background: gainsboro;
+          }
+          .m-header{
+            text-align: right;
+          }
+          .m-title{
+            display: flex!important;
+            color: rgb(255, 255, 255);
+            font-size: large;
+          }
+          .m-popup-closer {
+              color: #ff9191;
+              font-size: large;
+          }
+      </style>
+    </head>
+  
+    <body>
+        <!-- Contenedor principal del mapa -->
+        <div id="mapjs" class="m-container"></div>
+        <!-- Ficheros javascript de la API -->
+        <script type="text/javascript" src="https://componentes.cnig.es/api-core/vendor/browser-polyfill.js"></script>
+        <script type="text/javascript" src="https://componentes.cnig.es/api-core/js/apiign.ol.min.js"></script>
+        <script type="text/javascript" src="https://componentes.cnig.es/api-core/js/configuration.js"></script>
+  
+  
+        <script type="text/javascript">
+            // Configuración del mapa
+            M.proxy(false)
+            const mapjs = M.map({
+                container: 'mapjs', //id del contenedor del mapa
+                controls: ['panzoom', 'scale*true', 'scaleline', 'rotate', 'location', 'backgroundlayers'],
+                zoom: 5,
+                maxZoom: 20,
+                minZoom: 4,
+                center: [-467062.8225, 4683459.6216],
+            });
+            var mapaOL = mapjs.getMapImpl();
+  
+            // Configuración de las capas
+            const geodesia = new M.layer.GeoJSON({
+                  name: "vértices", 
+                  url: "https://www.ign.es/wfs/redes-geodesicas?service=WFS&version=1.0.0&request=GetFeature&typename=RED_REGENTE&outputFormat=application%2Fjson&srsname=EPSG%3A3857&",        
+                  extract: true,
+            });
+            mapjs.addLayers(geodesia);
+            
+        </script>
+    </body>
+  </html>
+
+          

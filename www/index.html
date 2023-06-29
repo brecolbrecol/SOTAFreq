@@ -1,0 +1,184 @@
+<!DOCTYPE html>         
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="cnig" content="yes">
+		<title>SOTA VHF FM DX 2023</title>
+		<!-- Estilo de la API -->
+		<link type="text/css" rel="stylesheet" href="https://componentes.cnig.es/api-core/assets/css/apiign.ol.min.css">            
+		<!-- Estilos de los plugins añadidos -->
+		<link href="https://componentes.cnig.es/api-core/plugins/ignsearchlocator/ignsearchlocator.ol.min.css" rel="stylesheet" />           
+		<link href="https://componentes.cnig.es/api-core/plugins/attributions/attributions.ol.min.css" rel="stylesheet" />            
+		<link href="https://componentes.cnig.es/api-core/plugins/xylocator/xylocator.ol.min.css" rel="stylesheet" />               
+		<link href="https://componentes.cnig.es/api-core/plugins/sharemap/sharemap.ol.min.css" rel="stylesheet" />            
+		<link href="https://componentes.cnig.es/api-core/plugins/backimglayer/backimglayer.ol.min.css" rel="stylesheet" />
+		<link href="https://componentes.cnig.es/api-core/plugins/toc/toc.ol.min.css" rel="stylesheet" />              
+		<link href="https://componentes.cnig.es/api-core/plugins/measurebar/measurebar.ol.min.css" rel="stylesheet" />
+		<style type="text/css">
+			html,
+			body {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+				overflow: hidden;
+			}
+/* hidden on default */
+div#popup { display: none; }
+
+/* use a media query to filter small devices */
+@media only screen and (max-device-width:480px) {
+    /* show the popup */
+    div#popup { display: block; padding: 20px; background-image: url("https://sota.jorge.red/img/fondo.png")  }
+}
+		</style>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+function PopUp(hideOrshow) {
+	if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
+	else document.getElementById('ac-wrapper').removeAttribute('style');
+}
+window.onload = function () {
+	setTimeout(function () {
+		PopUp('show');
+	});
+}
+		</script>
+		<div id="ac-wrapper" style='display:none'>
+			<div id="popup">
+				<h2>Modo de uso</h2>
+				<p>
+				Para ver la frecuencia asignada a cada cumbre:<br/>
+				<ol>
+					<li>Pulsa sobre la cumbre.</li>
+					<li>Despliega hacia arriba el texto con la referencia en fondo blanco.</li>
+				</ol>
+				<center>
+					<input type="submit" name="cerrar" value="Cerrar" onClick="PopUp('hide')" />
+				</center>
+				</p>
+			</div>
+		</div>
+
+		<!-- Contenedor principal del mapa -->
+		<div id="mapjs" class="m-container"></div>
+		<!-- Ficheros javascript de la API -->
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/vendor/browser-polyfill.js"></script>         
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/js/apiign.ol.min.js"></script>
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/js/configuration.js"></script>
+		<!-- Ficheros  javascript de los plugins añadidos-->
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/ignsearchlocator/ignsearchlocator.ol.min.js"></script>        
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/attributions/attributions.ol.min.js"></script>         
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/xylocator/xylocator.ol.min.js"></script>         
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/sharemap/sharemap.ol.min.js"></script>        
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/backimglayer/backimglayer.ol.min.js"></script> 
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/toc/toc.ol.min.js"></script> 
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/measurebar/measurebar.ol.min.js"></script>
+
+		<script type="text/javascript">
+// Configuración del mapa
+const mapjs = M.map({
+	container: 'mapjs', //id del contenedor del mapa
+//	controls: ['panzoom', 'scale*true', 'scaleline', 'rotate', 'location', 'backgroundlayers'],
+	controls: ['panzoom', 'scaleline', 'rotate', 'location'],
+	zoom: 6,
+	maxZoom: 20,
+	minZoom: 4,
+	center: [-328388.9, 4834083.3],
+});
+// Configuración de las capas
+const layerinicial = new M.layer.WMS({
+	url: 'https://www.ign.es/wms-inspire/unidades-administrativas?',
+	name: 'AU.AdministrativeBoundary',
+	legend: 'Limite administrativo',
+	tiled: false,
+}, {});
+
+const kml = new M.layer.KML({
+	url: 'http://jorge.red/sota/summits2023r1.kml',
+	name:  'cumbres2023',
+	extract: true,
+	legend: 'Cumbres anunciadas JUL 2023',
+	transparent: true,
+});
+
+mapjs.addLayers([layerinicial, kml]);
+
+// Configuración de los plugins
+const mp = new M.plugin.IGNSearchLocator({
+	servicesToSearch: 'gn',
+	maxResults: 10,
+	isCollapsed: false,
+	noProcess: 'municipio,poblacion',
+	countryCode: 'es',
+	reverse: true,
+});
+const mp2 = new M.plugin.Attributions({
+	mode: 1,
+	scale: 10000,
+	defaultAttribution: "SOTA VHF FM",
+	defaultURL: "https://sites.google.com/view/vhf-fm-sota"
+});
+
+const mp3 = new M.plugin.ShareMap({
+	baseUrl: 'https://componentes.cnig.es/api-core/',
+	position: 'BR',
+});
+const mp4 = new M.plugin.XYLocator({
+	position: 'TL',
+});
+
+const mp8 = new M.plugin.TOC({
+	collapsed: true,
+	collapsible: true,
+});
+
+const mpbase = new M.plugin.BackImgLayer({
+	position: 'TR',
+	collapsible: true,
+	collapsed: true,
+	layerId: 0,
+	columnsNumber: 2,
+	layerVisibility: true,
+	layerOpts: [
+	{
+		id: 'raster',
+		preview: 'img/raster.png',
+		title: 'Relieve',
+		layers: [
+			new M.layer.WMTS({
+				url: 'https://www.ign.es/wmts/mapa-raster?',
+				name: 'MTN',
+				legend: 'Mapa',
+				matrixSet: 'GoogleMapsCompatible',
+				transparent: false,
+				displayInLayerSwitcher: false,
+				queryable: false,
+				visible: true,
+				format: 'image/jpeg',
+			}),
+		],
+	},
+	],
+});
+
+const mpmeasure = new M.plugin.MeasureBar({
+	  position: 'TR',
+	  collapsed: false,
+});
+
+
+mapjs.addPlugin(mpbase);
+
+mapjs.addPlugin(mp);
+mapjs.addPlugin(mp2);
+mapjs.addPlugin(mp3);
+mapjs.addPlugin(mp4);
+mapjs.addPlugin(mp8);
+mapjs.addPlugin(mpmeasure);
+		</script>
+	</body>
+</html>

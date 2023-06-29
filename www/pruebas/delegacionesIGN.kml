@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Delegaciones</name>
+    <LookAt>
+      <longiude>-3.00</longiude>
+      <latitude>40.00</latitude>
+      <range>2000000</range>
+      <tilt>0</tilt>
+      <heading>0</heading>
+    </LookAt>
+    <Style id="Madrid_CENTRAL">
+      <IconStyle>
+        <Icon>
+          <href>http://www.ign.es/web/resources/img/delegaciones/Madrid_CENTRAL.gif</href>
+          <scale>1</scale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon31">
+      <IconStyle>
+        <Icon>
+          <href>http://www.ign.es/web/resources/img/delegaciones/icon31.png</href>
+          <scale>1</scale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="mapmarker">
+      <IconStyle>
+        <Icon>
+          <href>http://www.ign.es/web/resources/img/delegaciones/mapmarker.png</href>
+          <scale>1</scale>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="mapmarker2">
+      <IconStyle>
+        <Icon>
+          <href>http://www.ign.es/web/resources/img/delegaciones/mapmarker2.png</href>
+          <scale>1</scale>
+        </Icon>
+      </IconStyle>
+    </Style>
+	<!--				PROVINCIAS  ***A***			-->
+    <Placemark>
+      <name>Servicio Regional - Delegaci&amp;oacute;n Galicia - La casa del mapa - A Coru&amp;ntilde;a (Sede del servicio) &lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Servicio Regional/&lt;br/&gt;Delegaci&amp;oacute;n Galicia/&lt;br/&gt;La casa del mapa&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle San Andrés 162, 3&lt;sup&gt;a&lt;/sup&gt; planta&lt;br/&gt;15071 A Coru&amp;ntilde;a&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt;+34 981 98 97 04&lt;br/&gt;
+		&lt;b&gt;Fax:&lt;/b&gt; +34 981 98 97 14</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-8.4064,43.3680</coordinates>
+      </Point>
+    </Placemark>
+	<!--
+    <Placemark>
+      <name>Delegaci&amp;oacute; Galicia - La casa del mapa - A Coru&amp;ntilde;a &lt;br/&gt;</name>
+      <description>Direcci&amp;oacute;n: Calle San Andr&amp;eacute;s 162 3&lt;sup&gt;a&lt;/sup&gt; planta&lt;br/&gt;15003 A Coru&amp;ntilde;a&lt;br/&gt;Tel.: +34 981 98 97 04&lt;br/&gt;Fax: +34 981 98 97 14&lt</description>
+      <styleUrl>#icon31</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-8.4064,43.3680</coordinates>
+      </Point>
+    </Placemark>
+	-->
+    <Placemark>
+      <name>Centro Geof&amp;iacute;sico&lt;br/&gt;Observatorio Geof&amp;iacute;sico de Santiago</name>
+      <description>&lt;H3&gt;&lt;b&gt;Centro Geof&amp;iacute;sico:&lt;br/&gt;Observatorio Geof&amp;iacute;sico de Santiago&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Cuesta Santa Isabel S/N&lt;br/&gt;15705 Santiago de Compostela (A Coru&amp;ntilde;a)&lt;br/&gt;&lt;b&gt;&lt;b&gt;Tel.:&lt;/b&gt;&lt;/b&gt; +34 981 58 53 92&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 981 58 53 92</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-8.5508,42.8850</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro Geof&amp;iacute;sico&lt;br/&gt;Observatorio Geof&amp;iacute;sico de Alicante</name>
+      <description>&lt;H3&gt;&lt;b&gt;Centro Geof&amp;iacute;sico:&lt;br/&gt;Observatorio Geof&amp;iacute;sico de Alicante&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Plaza de San Juan de Dios, 3&lt;br/&gt;03010 Alicante&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 965 25 73 12/ +34 965 25 70 07 &lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 965 25 73 12/ +34 965 25 70 07</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-0.4871,38.3555</coordinates>
+      </Point>
+    </Placemark>    
+	<Placemark>
+      <name>Delegaci&amp;oacute;n Andaluc&amp;iacute;a Oriental - Almer&amp;iacute;a&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Andaluc&amp;iacute;a Oriental/&lt;br/&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle Hermanos Machado, 23&lt;br/&gt;04004 Almer&amp;iacute;a&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 950 75 94 36 (Delegaci&amp;oacute;n)&lt;br/&gt;+34 950 27 71 22 (Observatorio)&lt;br/&gt;
+		&lt;b&gt;Fax:&lt;/b&gt; +34 950 27 71 22</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-2.4606,36.8358</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Andaluc&amp;iacute;a Oriental - Almer&amp;iacute;a&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Andaluc&amp;iacute;a Oriental/&lt;br/&gt;Centro Geof&amp;iacute;sico:&lt;br/&gt;Observatorio Geof&amp;iacute;sico de Almer&amp;iacute;a&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Camino de la Sismol&amp;oacute;gica 26&lt;br/&gt;04008 Almer&amp;iacute;a&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 950 75 94 36 (Delegaci&amp;oacute;n)&lt;br/&gt;+34 950 27 71 22 (Observatorio)&lt;br/&gt;
+		&lt;b&gt;Fax:&lt;/b&gt; +34 950 27 71 22</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-2.4593,36.8523</coordinates>
+      </Point>
+    </Placemark>
+    <!--
+	<Placemark>
+      <name>Centro Geof&amp;iacute;sico&lt;br/&gt;Observatorio Geof&amp;iacute;sico de Almer&amp;iacute;a</name>
+      <description>Direcci&amp;oacute;n: Camino Sismol&amp;oacute;gica 26&lt;br/&gt;04008 Almer&amp;iacute;a&lt;br/&gt;Tel.: +34 950 27 71 22 (Observatorio) / +34 950 75 94 36 (Servicio Regional) &lt;br/&gt;Fax: +34 950 27 71 22 (Observatorio) / +34 950 27 71 22 (Servicio Regional)</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-2.4593,36.8523</coordinates>
+      </Point>
+    </Placemark>
+	-->
+    <Placemark>
+      <name>Centro Astron&amp;oacute;mico&lt;br/&gt;Centro Astron&amp;oacute;mico Hispano - Alem&amp;aacute;n (CAHA) de Calar Alto</name>
+      <description>&lt;H3&gt;&lt;b&gt;Centro Astron&amp;oacute;mico:&lt;br/&gt;Centro Astron&amp;oacute;mico Hispano - Alem&amp;aacute;n (CAHA) de Calar Alto&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Ctra. de Calar Alto (pasado el n&amp;uacute;cleo urbano de Gergal)&lt;br/&gt;04080 Gergal (Almer&amp;iacute;a)&lt;br/&gt;Aptdo. Correos: 511 - 04080 Almer&amp;iacute;a&lt;br/&gt;
+		&lt;b&gt;Tel.:&lt;/b&gt; +34 950 23 09 88 (Oficina)/ +34 950 63 25 00 (Observatorio)&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 950 23 03 73 (Oficina)/ +34 950 63 25 04 (Observatorio)/ +34 950 63 25 92 (Observatorio)</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-2.5504,37.2226</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Servicio Regional - Delegaci&amp;oacute;n Asturias - La casa del mapa - Oviedo&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Servicio Regional/&lt;br/&gt;Delegaci&amp;oacute;n Asturias/&lt;br/&gt;La casa del mapa&lt;/b&gt;&lt;/H3&gt;
+	  &lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Plaza de Espa&amp;ntilde;a 3, 1&lt;sup&gt;a&lt;/sup&gt; planta, Edificio Moptma&lt;br/&gt;33007 Oviedo&lt;br/&gt;&lt;b&gt;Tel.:&lt;br/&gt;+34 984 76 93 35&lt;br/&gt;Fax: +34 984 76 93 46;
+	  &lt;b&gt;</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-5.8537,43.3605</coordinates>
+      </Point>
+    </Placemark>
+	<!--
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Asturias - La casa del mapa - Oviedo &lt;br/&gt;</name>
+      <description>Direcci&amp;oacute;n: Plaza de Espa&amp;ntilde;a 3, 1&lt;sup&gt;a&lt;/sup&gt; planta, Edificio Moptma&lt;br/&gt;33007 Oviedo&lt;br/&gt;Tel.: +34 984 76 93 35&lt;br/&gt;Fax: +34 984 76 93 46</description>
+      <styleUrl>#icon31</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-5.8537,43.3605</coordinates>
+      </Point>
+    </Placemark>
+	-->
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n - &amp;Aacute;vila&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt;Calle Hornos Caleros 1 &lt;br/&gt;05071 &amp;Aacute;vila&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 920 75 91 17 -19&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 920 75 91 68</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-4.6879,40.6567</coordinates>
+      </Point>
+    </Placemark>
+	<!--				PROVINCIAS  ***B***			-->
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Extremadura - Badajoz &lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Extremadura&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Avenida Europa 1&lt;br/&gt;06005 Badajoz&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 924 97 90 30&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 924 97 90 36</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-6.9788,38.8728</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Servicio Regional del IGN en Catalu&amp;ntilde;a - Barcelona (Sede del servicio) &lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Servicio Regional del IGN en Catalu&amp;ntilde;a&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Carrer de Bergara 12, 4&lt;sup&gt;a&lt;/sup&gt; planta&lt;br/&gt;08002 Barcelona&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 935 20 96 18&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 935 20 96 28</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>2.1686,41.3862</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n - Burgos &lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle Vitoria 34&lt;br/&gt;09004 Burgos&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 947 76 91 80-82&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 947 76 91 39</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.6955,42.3418</coordinates>
+      </Point>
+    </Placemark>
+	<!--				PROVINCIAS  ***C***			-->
+    <Placemark>
+      <name>Servicio Regional - Delegaci&amp;oacute;n Cantabria Pa&amp;iacute;s Vasco - La casa del mapa - Santander (Sede del servicio) &lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Servicio Regional/&lt;br/&gt;Delegaci&amp;oacute;n Cantabria Pa&amp;iacute;s Vasco/&lt;br/&gt;La casa del mapa&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle Vargas 53, 10&lt;sup&gt;a&lt;/sup&gt; planta&lt;br/&gt;39071 Santander&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 942 99 93 60&lt;br/&gt;+34 942 99 93 63 (Delegaci&amp;oacute;n)&lt;br/&gt;
+		&lt;b&gt;Fax:&lt;/b&gt; +34 942 99 93 69</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.8206,43.4598</coordinates>
+      </Point>
+    </Placemark>
+	<!--
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Cantabria Pa&amp;iacute;s Vasco - La casa del mapa - Santander&lt;br/&gt;</name>
+      <description>Direcci&amp;oacute;n: Calle Vargas 53, planta Baja&lt;br/&gt;39010 Santander&lt;br/&gt;Tel.: +34 942 99 93 60 - 63&lt;br/&gt;Fax: +34 942 99 93 69</description>
+      <styleUrl>#icon31</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.8206,43.4598</coordinates>
+      </Point>
+    </Placemark>
+	-->
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Cantabria Pa&amp;iacute;s Vasco - Donostia San Sebasti&amp;aacute;n&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Cantabria Pa&amp;iacute;s Vasco&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Plaza P&amp;iacute;o XII 6, 2 &lt;sup&gt;a&lt;/sup&gt; planta&lt;br/&gt;20010 San Sebasti&amp;aacute;n&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 943 98 93 45&lt;br/&gt;
+		&lt;b&gt;Fax:&lt;/b&gt; +34 943 98 91 46</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-1.9802,43.3064</coordinates>
+      </Point>
+    </Placemark>
+	-->
+	<!--				PROVINCIAS  ***G***			-->
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Andaluc&amp;iacute;a Oriental - Granada&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Andaluc&amp;iacute;a Oriental/&lt;br/&gt;Centro Astron&amp;oacute;mico:&lt;br/&gt;Instituto de Radioastronom&amp;iacute;a Milim&amp;eacute;trica (IRAM)&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Avenida Divina Pastora 7 y 9 (bater&amp;iacute;a central), local 23&lt;br/&gt;18012 Granada&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 958 27 66 67 (Delegaci&amp;oacute;n)&lt;/br&gt;
+		+34 958 80 54 54 (IRAM)&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 958 22 23 63 (IRAM)</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.6024,37.1844</coordinates>
+      </Point>
+    </Placemark>
+	<!--
+	<Placemark>
+      <name>Centro Astron&amp;oacute;mico&lt;br/&gt;Instituto de Radioastronom&amp;iacute;a Milim&amp;eacute;trica (IRAM)</name>
+      <description>Direcci&amp;oacute;n: Avenida Divina Pastora 7 y 9 (bater&amp;iacute;a central), local 23&lt;br/&gt;18012 Granada&lt;br/&gt;Tel.: +34 958 80 54 54&lt;br/&gt;Fax: +34 958 22 23 63</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.6024,37.1844</coordinates>
+      </Point>
+    </Placemark>
+	-->
+    <Placemark>
+      <name>Centro Astron&amp;oacute;mico&lt;br/&gt;Observatorio de Pico Veleta</name>
+      <description>&lt;H3&gt;&lt;b&gt;Centro Astron&amp;oacute;mico:&lt;br/&gt;Observatorio de Pico Veleta&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Pico Veleta&lt;br/&gt;18152 D&amp;iacute;lar (Granada)&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 958 48 20 02&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 958 48 11 48</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.3928,37.0663</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Castilla La Mancha - Centro astron&amp;oacute;mico de Yebes</name>
+      <description>&lt;H3&gt;&lt;b&gt;Centro Astron&amp;oacute;mico:&lt;br/&gt;Centro astron&amp;oacute;mico de Yebes&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Cerro de la Palera S/N&lt;br/&gt;19141 Yebes (Guadalajara)&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 949 29 03 -37 Ext.202&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 949 29 00 63</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.0894,40.5255</coordinates>
+      </Point>
+    </Placemark>
+
+	<!--				PROVINCIAS  ***J***			-->
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Andaluc&amp;iacute;a Oriental - Ja&amp;eacute;n&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Andaluc&amp;iacute;a Oriental&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Plaza de las Batallas 2&lt;br/&gt;23071 Ja&amp;eacute;n &lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 953 99 91 05&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 953 99 91 99</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.7892,37.7727</coordinates>
+      </Point>
+    </Placemark>
+	<!--				PROVINCIAS  ***L***			-->
+    <Placemark>
+      <name>Delegaci&amp;oacute;n La Rioja - La casa del mapa -Logro&amp;ntilde;o&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n La Rioja&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Avenida Gran V&amp;iacute;a Juan Carlos I 49, entreplanta Izq.&lt;br/&gt;26006 Logro&amp;ntilde;o&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 941 75 90 17&lt;br/&gt;
+		&lt;b&gt;Fax:&lt;/b&gt; +34 941 75 90 22</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-2.4515,42.4642</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro Geof&amp;iacute;sico&lt;br/&gt;Observatorio Geof&amp;iacute;sico de Logro&amp;ntilde;o</name>
+      <description>&lt;H3&gt;&lt;b&gt;Centro Geof&amp;iacute;sico:&lt;br/&gt;Observatorio Geof&amp;iacute;sico de Logro&amp;ntilde;o&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Paseo de las cabras, S/N  &lt;br/&gt;26007 Logro&amp;ntilde;o&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 941 75 92 65 (Servicio Regional)&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 941 23 47 67 (Servicio Regional)</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-2.5032,42.4577</coordinates>
+      </Point>
+    </Placemark>
+	<!--				PROVINCIAS  ***M***			-->
+    <Placemark>
+      <name>Servicios centrales - La casa del mapa - Central Madrid&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Servicios Centrales/&lt;br/&gt;La casa del mapa&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle General Ib&amp;aacute;&amp;ntilde;ez de &amp;Iacute;bero 3&lt;br/&gt;28003 Madrid&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 915 97 97 01&lt;br/&gt;
+		&lt;b&gt;Fax:&lt;/b&gt; +34 915 97 97 73</description>
+      <styleUrl>#icon31</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.7103,40.4458</coordinates>
+      </Point>
+    </Placemark>
+    <!--
+	<Placemark>
+      <name>Servicios Centrales-Madrid&lt;br/&gt;</name>
+      <description>Direcci&amp;oacute;n: Calle General Iba&amp;ntilde;ez de &amp;Iacute;bero, 3&lt;br/&gt;28003 Madrid&lt;br/&gt;Tel.: +34 915 97 97 01&lt;br/&gt;Fax: +34 915 97 97 73</description>
+      <styleUrl>#Madrid_CENTRAL</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.7103,40.4458</coordinates>
+      </Point>
+    </Placemark>
+	-->
+    <Placemark>
+      <name>Real Observatorio Astron&amp;oacute;mico - La casa del mapa - Madrid </name>
+      <description>&lt;H3&gt;&lt;b&gt;Real Observatorio Astron&amp;oacute;mico/&lt;br/&gt;La casa del mapa&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle Alfonso XII 3&lt;br/&gt;28014 Madrid&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 915 97 95 64&lt;br/&gt;+34 915 06 12 61 
+		&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 915 27 19 35&lt;br/&gt;
+		&lt;b&gt;Horario:&lt;/b&gt; &lt;a href="http://www.ign.es/rom/visitas/index.jsp" target="_blank;"&gt;Reservado para la visitas concertadas al ROM
+		&lt;/a&gt;&lt;br/&gt;s&amp;aacute;bados y domingos de 11:30 a 14:00 Reservado para la visitas concertadas al ROM</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.6884,40.4094</coordinates>
+      </Point>
+    </Placemark>
+	<!--
+    <Placemark>
+      <name>La casa del mapa - Real Observatorio Astron&amp;oacute;mico de Madrid &lt;br/&gt;</name>
+      <description>Direcci&amp;oacute;n: Calle Alfonso XII 3&lt;br/&gt;28014 Madrid&lt;br/&gt;Tel.: +34 915 97 95 64&lt;br/&gt;Fax: +34 915 27 19 35&lt;br/&gt;Horario: De Lunes a Viernes de 09:00 a 14:30&lt;/br&gt;Tel.: +34 915 06 12 61&lt;br/&gt;Fax: +34 915 27 19 35&lt;br/&gt;Horario: s&amp;aacute;bados y domingos de 11:30 a 14:00 Reservado para la visitas concertadas al ROM.</description>
+      <styleUrl>#icon31</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.6876,40.4084</coordinates>
+      </Point>
+    </Placemark>
+	-->
+    <Placemark>
+      <name>Centro Astron&amp;oacute;mico&lt;br/&gt;Centro de Investigaci&amp;oacute;n de las Ciencias Geogr&amp;aacute;ficas y Astronom&amp;iacute;a (OAN)</name>
+      <description>&lt;H3&gt;&lt;b&gt;Centro Astron&amp;oacute;mico:&lt;br/&gt;Centro de Investigaci&amp;oacute;n de las Ciencias Geogr&amp;aacute;ficas y Astronom&amp;iacute;a (OAN)&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle Escultor Claudio, S/N&lt;br/&gt;28871 Alcal&amp;aacute; de Henares (Madrid)&lt;br/&gt;Aptdo. Correos: 112 - 28803 Alcal&amp;aacute; de Henares (Madrid)&lt;br/&gt;
+		&lt;b&gt;Tel.:&lt;/b&gt; +34 918 85 50 60/ +34 918 85 50 61&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 918 85 50 62</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.3413,40.5025</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Andaluc&amp;iacute;a Oriental - M&amp;aacute;laga&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Andaluc&amp;iacute;a Oriental/&lt;br/&gt;Centro Geof&amp;iacute;sico:&lt;br/&gt;Observatorio Geof&amp;iacute;sico de M&amp;aacute;laga&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle Ramos Carri&amp;oacute;n 48, Apartado de Correos 61&lt;br/&gt;29016 M&amp;aacute;laga&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 952 98 94 52&lt;br/&gt;+34 952 21 20 18 (Observatorio)&lt;br/&gt;
+		&lt;b&gt;Fax:&lt;/b&gt; +34 952 98 94 86&lt;br/&gt;+34 952 22 32 38 (Observatorio)</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-4.3939,36.7261</coordinates>
+      </Point>
+    </Placemark>
+    <!--
+	<Placemark>
+      <name>Centro Geof&amp;iacute;sico&lt;br/&gt;Observatorio Geof&amp;iacute;sico de M&amp;aacute;laga</name>
+      <description>Direcci&amp;oacute;n: Calle Ramos Carri&amp;oacute;n 48, Apartado 61&lt;br/&gt;29016 M&amp;aacute;laga&lt;br/&gt;29080 M&amp;aacute;laga&lt;br/&gt;Tel.: +34 952 21 20 18 (Observatorio/ Servicio Regional)&lt;br/&gt;Fax: +34 952 22 32 38 (Observatorio/ Servicio Regional)</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-4.3939,36.7261</coordinates>
+      </Point>
+    </Placemark>
+	-->
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Murcia - La casa del mapa - Murcia &lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Murcia/&lt;br/&gt;La casa del mapa&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Palacio de las Balsas,&lt;br/&gt; Plaza Balsas 1, 1&lt;sup&gt;a&lt;/sup&gt; planta&lt;br/&gt;30001 Murcia&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 968 98 92 46 57-58-59
+		</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-1.1259,37.9857</coordinates>
+      </Point>
+    </Placemark>
+	<!--				PROVINCIAS  ***O***			-->
+    <Placemark>
+      <name>Servicio Regional - Delegaci&amp;oacute;n Galicia - La casa del mapa - Ourense&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Galicia/&lt;br/&gt;La casa del mapa&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Parque de San L&amp;aacute;zaro 1&lt;sup&gt;a&lt;/sup&gt; Edificio Subdelegaci&amp;oacute;n del Gobierno&lt;br/&gt;32003 Ourense&lt;br/&gt;
+		&lt;b&gt;Tel.:&lt;/b&gt; +34 988 75 91 10-12-13&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 988 75 91 91</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-7.8624,42.3396</coordinates>
+      </Point>
+    </Placemark>
+	<!--				PROVINCIAS  ***P***			-->
+    <Placemark>
+      <name>Servicio Regional - Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n - La casa del mapa - Palencia&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Servicio Regional/&lt;br/&gt;Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n/&lt;br/&gt;La casa del mapa&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Avenida de Sim&amp;oacute;n Nieto, 10, planta Baja, EASM&lt;br/&gt;34041 Palencia&lt;br/&gt;&lt;b&gt;Tel.:&lt;br/&gt;+34 979 75 09 98
+		</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-4.5385,42.0164</coordinates>
+      </Point>
+    </Placemark>
+	<!--
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n - La casa del mapa - Palencia &lt;br/&gt;</name>
+      <description>Direcci&amp;oacute;n: Avenida de Sim&amp;oacute;n Nieto 10, planta Baja, EASM&lt;br/&gt;34005 Palencia&lt;br/&gt;Tel.: +34 979 75 09 98</description>
+      <styleUrl>#icon31</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-4.5385,42.0164</coordinates>
+      </Point>
+    </Placemark>
+	-->
+    <Placemark>
+      <name>Diputaci&amp;oacute;n de Pontevedra - La casa del mapa - Cartoteca Provincial&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;La casa del mapa/&lt;br/&gt;Cartoteca Provincial&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle Padre Amoedo 1, 2&lt;sup&gt;a&lt;/sup&gt; planta&lt;br/&gt;36002 Pontevedra&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 986 20 11 30 - Ext. 42133
+		</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-8.6418,42.4335</coordinates>		
+      </Point>
+    </Placemark>
+	<!--				PROVINCIAS  ***S***			-->
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n - Salamanca &lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle Gran V&amp;iacute;a 31, 3&lt;sup&gt;a&lt;/sup&gt; planta&lt;br/&gt;37001 Salamanca&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 923 75 90 67&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 923 75 91 99</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-5.6597,40.9663</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n - Segovia &lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Plaza del Seminario/ Adolfo Su&amp;aacute;rez 1, Bajo&lt;br/&gt;40001 Segovia&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 921 75 91 24&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 921 75 91 01</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-4.1196,40.9493</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Andaluc&amp;iacute;a Occidental - Sevilla&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Andaluc&amp;iacute;a Occidental&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Plaza de Espa&amp;ntilde;a, Sector III&lt;br&gt;planta Baja &lt;br/&gt;41013 Sevilla&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 955 56 93 20-21&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 955 56 93 28</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-5.9870,37.3784</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n - Soria&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle Alfonso VIII 2&lt;br/&gt;42003 Soria&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 975 75 92 20&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 975 22 64 02</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-2.4695,41.7637</coordinates>
+      </Point>
+    </Placemark>
+	<!--				PROVINCIAS  ***T***			-->
+    <Placemark>
+      <name>Unidad Provincial Instituto Geogr&amp;aacute;fico Nacional en Tarragona&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Unidad Provincial Instituto Geogr&amp;aacute;fico Nacional en Tarragona&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Pla&amp;ccedil;a imperial Tarraco 4, 5&lt;sup&gt;a&lt;/sup&gt; planta&lt;br/&gt;43005 Tarragona&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 977 99 90 68-69&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 977 99 90 98</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>1.2445,41.1191</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delegaci&amp;oacute;n de Castilla la Mancha - Toledo</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n de Castilla la Mancha/&lt;br/&gt;Centro Geof&amp;iacute;sico&lt;br/&gt;Observatorio Geof&amp;iacute;sico de Toledo&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Avenida de Adolfo Su&amp;aacute;rez S/N (antigua Ctra. de &amp;Aacute;vila  Km. 3,5)&lt;br/&gt;45005 Toledo&lt;br/&gt;&lt;b&gt;Tel.:&lt;br/&gt;
+		+34 925 25 43 49 (Observatorio)/ +34 925 25 06 42  (Observatorio)/ +34 925 98 92 70 (Servicio Regional)&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 925 98 92 79</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-4.0503,39.8808</coordinates>
+      </Point>
+    </Placemark>
+	<!--
+	<Placemark>
+      <name>Centro Geof&amp;iacute;sico&lt;br/&gt;Observatorio Geof&amp;iacute;sico de Toledo&lt;br/&gt;</name>
+      <description>Direcci&amp;oacute;n: Avenida de Adolfo Su&amp;aacute;rez (antigua Ctra. de Avila  Km. 3,5)&lt;br/&gt;45005 Toledo&lt;br/&gt;Tel.: +34 925 25 43 49 (Observatorio) / +34 925 25 06 42  (Observatorio) / +34 925 98 92 70 (Servicio Regional)</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-4.050308,39.880747</coordinates>
+      </Point>
+    </Placemark>
+	-->
+    <Placemark>
+      <name>Centro Geof&amp;iacute;sico&lt;br/&gt;Observatorio de S. Pablo de los Montes</name>
+      <description>&lt;H3&gt;&lt;b&gt;Centro Geof&amp;iacute;sico:&lt;br/&gt;Observatorio de S. Pablo de los Montes&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; 45120 San Pablo de los Montes (Toledo)&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 925 41 51 80</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-4.3288,39.5480</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro Geof&amp;iacute;sico&lt;br/&gt;Centro Sismol&amp;oacute;gico de Sonseca</name>
+      <description>&lt;H3&gt;&lt;b&gt;Centro Geof&amp;iacute;sico:&lt;br/&gt;Centro Sismol&amp;oacute;gico de Sonseca&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Ctra. N401, km 96.5&lt;br/&gt;45450 Sonseca (Toledo)&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 925 38 31 08&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 925 38 36 00</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-3.9444,39.6754</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Canarias - Santa Cruz de Tenerife&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Canarias/&lt;br/&gt;Centro Geof&amp;iacute;sico:&lt;br/&gt;Centro Geof&amp;iacute;sico de Canarias&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle La Marina 20, 2&lt;sup&gt;a&lt;/sup&gt; planta, Edificio de Servicios M&amp;uacute;ltiples&lt;br/&gt; 38001 Santa Cruz de Tenerife&lt;br/&gt;
+		&lt;b&gt;Tel.:&lt;/b&gt; +34 922 29 57 52&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 922 24 80 21</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-16.2474,28.4724</coordinates>
+      </Point>
+    </Placemark>
+	<!--
+	<Placemark>
+      <name>Centro Geof&amp;iacute;sico&lt;br/&gt;Centro Geof&amp;iacute;sico de Canarias</name>
+      <description>Direcci&amp;oacute;n: Calle La Marina 20, 2&lt;sup&gt;o&lt;/sup&gt;&lt;br/&gt;Edificio de Servicios M&amp;uacute;ltiples&lt;br/&gt;38001 Santa Cruz de Tenerife&lt;br/&gt;Tel.: +34 922 28 70 54 - 66&lt;br/&gt;Fax: +34 922 24 80 21</description>
+      <styleUrl>#mapmarker2</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-16.2474,28.4724</coordinates>
+      </Point>
+    </Placemark>
+	-->
+	<!--				PROVINCIAS  ***V***			-->
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Comunidad Valenciana - Valencia &lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Comunidad Valenciana&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle Joaqu&amp;iacute;n Ballester 39, 5&lt;sup&gt;a&lt;/sup&gt; planta, Edificio Servicios M&amp;uacute;ltiples&lt;br/&gt;46009 Valencia&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 963 07 94 13-17&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 963 07 94 13</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-0.3913,39.4820</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n - La casa del mapa - Valladolid &lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n/&lt;br/&gt;La casa del mapa&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle Francesco Scrimieri 1 &lt;br/&gt;47014 Valladolid&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 983 99 91 72&lt;br/&gt;;
+		&lt;b&gt;Fax:&lt;/b&gt; +34 983 99 91 31</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-4.7359,41.6485</coordinates>
+      </Point>
+    </Placemark>
+	<!--
+    <Placemark>
+      <name>La casa del mapa - Valladolid&lt;br/&gt;</name>
+      <description>Direcci&amp;oacute;n: Calle Francesco Scrimieri 1 &lt;br/&gt;47014 Valladolid&lt;br/&gt;Tel.: +34 983 99 91 72&lt;br/&gt;Fax: +34 983 47 53 09</description>
+      <styleUrl>#icon31</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-4.7359,41.6485</coordinates>
+      </Point>
+    </Placemark>
+	-->
+	<!--				PROVINCIAS  ***Z***			-->
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n - Zamora &lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Delegaci&amp;oacute;n Castilla y Le&amp;oacute;n&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Plaza de la Constituci&amp;oacute;n 1, 2&lt;sup&gt;a&lt;/sup&gt; planta, Edificio SubDelegaci&amp;oacute;n del Gobierno&lt;br/&gt;49003 Zamora&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 980 75 91 41&lt;br/&gt;
+		&lt;b&gt;Fax:&lt;/b&gt; +34 980 53 06 17</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-5.7439,41.5046</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Servicio Regional - Delegaci&amp;oacute;n Arag&amp;oacute;n - La casa del mapa - Zaragoza (Sede del servicio)&lt;br/&gt;</name>
+      <description>&lt;H3&gt;&lt;b&gt;Servicio Regional/&lt;br/&gt;Delegaci&amp;oacute;n Arag&amp;oacute;n/&lt;br/&gt;La casa del mapa&lt;/b&gt;&lt;/H3&gt;
+		&lt;b&gt;Direcci&amp;oacute;n:&lt;/b&gt; Calle Coso, 55, 5&lt;sup&gt;a&lt;/sup&gt; planta&lt;br/&gt;50001 Zaragoza&lt;br/&gt;&lt;b&gt;Tel.:&lt;/b&gt; +34 976 99 90 24&lt;br/&gt;&lt;b&gt;Fax:&lt;/b&gt; +34 976 99 90 26
+		</description>
+      <styleUrl>#mapmarker</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-0.8796,41.6519</coordinates>
+      </Point>
+    </Placemark>
+	<!--
+    <Placemark>
+      <name>Delegaci&amp;oacute;n Arag&amp;oacute;n - La casa del mapa - Zaragoza&lt;br/&gt;</name>
+      <description>Direcci&amp;oacute;n: Calle Coso 55, 5&lt;sup&gt;a&lt;/sup&gt; planta&lt;br/&gt;50001 Zaragoza&lt;br/&gt;Tel.: +34 976 99 90 24&lt;br/&gt;Fax: +34 976 99 90 26</description>
+      <styleUrl>#icon31</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-0.8796,41.6519</coordinates>
+      </Point>
+    </Placemark>
+	-->
+  </Document>
+</kml>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>         
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="cnig" content="yes">
+		<title>SOTA VHF FM DX 2023</title>
+		<!-- Estilo de la API -->
+		<link type="text/css" rel="stylesheet" href="https://componentes.cnig.es/api-core/assets/css/apiign.ol.min.css">            
+		<!-- Estilos de los plugins añadidos -->
+		<link href="https://componentes.cnig.es/api-core/plugins/ignsearchlocator/ignsearchlocator.ol.min.css" rel="stylesheet" />           
+		<link href="https://componentes.cnig.es/api-core/plugins/attributions/attributions.ol.min.css" rel="stylesheet" />            
+		<link href="https://componentes.cnig.es/api-core/plugins/xylocator/xylocator.ol.min.css" rel="stylesheet" />               
+		<link href="https://componentes.cnig.es/api-core/plugins/sharemap/sharemap.ol.min.css" rel="stylesheet" />            
+		<link href="https://componentes.cnig.es/api-core/plugins/backimglayer/backimglayer.ol.min.css" rel="stylesheet" />
+		<link href="https://componentes.cnig.es/api-core/plugins/toc/toc.ol.min.css" rel="stylesheet" />              
+		<link href="https://componentes.cnig.es/api-core/plugins/measurebar/measurebar.ol.min.css" rel="stylesheet" />
+		<style type="text/css">
+			html,
+			body {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+				overflow: hidden;
+			}
+			#overlay {
+				position: fixed;
+					top: 0;
+					left: 0;$(function(){
+						var overlay = $('<div id="overlay"></div>');
+						overlay.show();
+						overlay.appendTo(document.body);
+						$('.popup-onload').show();
+						$('.close').click(function(){
+							$('.popup-onload').hide();
+							overlay.appendTo(document.body).remove();
+							return false;
+						});
+
+
+					 
+
+					$('.x').click(function(){
+						$('.popup').hide();
+						overlay.appendTo(document.body).remove();
+						return false;
+					});
+					});
+				width: 100%;
+					height: 100%;
+						background-color: #000;
+							filter:alpha(opacity=70);
+								-moz-opacity:0.7;
+									-khtml-opacity: 0.7;
+										opacity: 0.7;
+											z-index: 100;
+												display: none;
+			}
+			.cnt223 a{
+				text-decoration: none;
+			}
+			.popup-onload{
+				width: 100%;
+					margin: 0 auto;
+						display: none;
+							position: fixed;
+								z-index: 101;
+			}
+			.cnt223{
+				min-width: 600px;
+					width: 600px;
+						min-height: 150px;
+							margin: 100px auto;
+								background: #f3f3f3;
+									position: relative;
+										z-index: 103;
+											padding: 15px 35px;
+												border-radius: 5px;
+													box-shadow: 0 2px 5px #000;
+			}
+			.cnt223 p{
+				clear: both;
+					    color: #555555;
+						        /* text-align: justify; */
+						        font-size: 20px;
+								    font-family: sans-serif;
+			}
+			.cnt223 p a{
+				color: #d91900;
+					font-weight: bold;
+			}
+			.cnt223 .x{
+				float: right;
+					height: 35px;
+						left: 22px;
+							position: relative;
+								top: -25px;
+									width: 34px;
+			}
+			.cnt223 .x:hover{
+				cursor: pointer;
+			}
+
+		</style>
+		<script>
+	$(function(){
+		var overlay = $('<div id="overlay"></div>');
+		overlay.show();
+		overlay.appendTo(document.body);
+		$('.popup-onload').show();
+	$('.close').click(function(){
+		$('.popup-onload').hide();
+		overlay.appendTo(document.body).remove();
+		return false;
+	});
+
+
+	 
+
+	$('.x').click(function(){
+		$('.popup').hide();
+		overlay.appendTo(document.body).remove();
+		return false;
+	});
+});
+		</script>
+	</head>
+
+	<body>
+		<div class='popup-onload'>
+			<div class='cnt223'>
+				<p>
+				Para ver la frecuencia asignada a cada cumbre:<br/>
+				 <ol>
+					   <li>Pulsa sobre la cumbre</li>
+					     <li>Despliega hacia arriba el desplegable que aparece en la parte inferior en fondo blanco</li>
+				 </ol> 
+				<br/>
+				<a href='' class='close'>Cerrar</a>
+				</p>
+			</div>
+		</div>
+		<!-- Contenedor principal del mapa -->
+		<div id="mapjs" class="m-container"></div>
+		<!-- Ficheros javascript de la API -->
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/vendor/browser-polyfill.js"></script>         
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/js/apiign.ol.min.js"></script>
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/js/configuration.js"></script>
+		<!-- Ficheros  javascript de los plugins añadidos-->
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/ignsearchlocator/ignsearchlocator.ol.min.js"></script>        
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/attributions/attributions.ol.min.js"></script>         
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/xylocator/xylocator.ol.min.js"></script>         
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/sharemap/sharemap.ol.min.js"></script>        
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/backimglayer/backimglayer.ol.min.js"></script> 
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/toc/toc.ol.min.js"></script> 
+		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/measurebar/measurebar.ol.min.js"></script>
+
+		<script type="text/javascript">
+// Configuración del mapa
+const mapjs = M.map({
+	container: 'mapjs', //id del contenedor del mapa
+//	controls: ['panzoom', 'scale*true', 'scaleline', 'rotate', 'location', 'backgroundlayers'],
+	controls: ['panzoom', 'scaleline', 'rotate', 'location'],
+	zoom: 6,
+	maxZoom: 20,
+	minZoom: 4,
+	center: [-328388.9, 4834083.3],
+});
+// Configuración de las capas
+const layerinicial = new M.layer.WMS({
+	url: 'https://www.ign.es/wms-inspire/unidades-administrativas?',
+	name: 'AU.AdministrativeBoundary',
+	legend: 'Limite administrativo',
+	tiled: false,
+}, {});
+
+const kml = new M.layer.KML({
+	url: 'http://jorge.red/sota/summits2023r1.kml',
+	name:  'cumbres2023',
+	extract: true,
+	legend: 'Cumbres anunciadas JUL 2023',
+	transparent: true,
+});
+
+mapjs.addLayers([layerinicial, kml]);
+
+// Configuración de los plugins
+const mp = new M.plugin.IGNSearchLocator({
+	servicesToSearch: 'gn',
+	maxResults: 10,
+	isCollapsed: false,
+	noProcess: 'municipio,poblacion',
+	countryCode: 'es',
+	reverse: true,
+});
+const mp2 = new M.plugin.Attributions({
+	mode: 1,
+	scale: 10000,
+	defaultAttribution: "SOTA VHF FM",
+	defaultURL: "https://sites.google.com/view/vhf-fm-sota"
+});
+
+const mp3 = new M.plugin.ShareMap({
+	baseUrl: 'https://componentes.cnig.es/api-core/',
+	position: 'BR',
+});
+const mp4 = new M.plugin.XYLocator({
+	position: 'TL',
+});
+
+const mp8 = new M.plugin.TOC({
+	collapsed: true,
+	collapsible: true,
+});
+
+const mpbase = new M.plugin.BackImgLayer({
+	position: 'TR',
+	collapsible: true,
+	collapsed: true,
+	layerId: 0,
+	columnsNumber: 2,
+	layerVisibility: true,
+	layerOpts: [
+	{
+		id: 'raster',
+		preview: 'img/raster.png',
+		title: 'Relieve',
+		layers: [
+			new M.layer.WMTS({
+				url: 'https://www.ign.es/wmts/mapa-raster?',
+				name: 'MTN',
+				legend: 'Mapa',
+				matrixSet: 'GoogleMapsCompatible',
+				transparent: false,
+				displayInLayerSwitcher: false,
+				queryable: false,
+				visible: true,
+				format: 'image/jpeg',
+			}),
+		],
+	},
+	],
+});
+
+const mpmeasure = new M.plugin.MeasureBar({
+	  position: 'TR',
+	  collapsed: false,
+});
+
+
+mapjs.addPlugin(mpbase);
+
+mapjs.addPlugin(mp);
+mapjs.addPlugin(mp2);
+mapjs.addPlugin(mp3);
+mapjs.addPlugin(mp4);
+mapjs.addPlugin(mp8);
+mapjs.addPlugin(mpmeasure);
+		</script>
+	</body>
+</html>

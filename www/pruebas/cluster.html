@@ -1,0 +1,169 @@
+<!DOCTYPE html>         
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="cnig" content="yes">
+    <title>visualizador base</title>
+    <!-- Estilo de la API -->
+    <link type="text/css" rel="stylesheet" href="https://componentes.cnig.es/api-core/assets/css/apiign.ol.min.css">            
+    <!-- Estilos de los plugins añadidos -->
+    <link href="https://componentes.cnig.es/api-core/plugins/ignsearchlocator/ignsearchlocator.ol.min.css" rel="stylesheet" />           
+    <link href="https://componentes.cnig.es/api-core/plugins/attributions/attributions.ol.min.css" rel="stylesheet" />            
+    <link href="https://componentes.cnig.es/api-core/plugins/xylocator/xylocator.ol.min.css" rel="stylesheet" />               
+    <link href="https://componentes.cnig.es/api-core/plugins/sharemap/sharemap.ol.min.css" rel="stylesheet" />            
+    <link href="https://componentes.cnig.es/api-core/plugins/mousesrs/mousesrs.ol.min.css" rel="stylesheet" />              
+    <!-- <link href="https://componentes.cnig.es/api-core/plugins/zoomextent/zoomextent.ol.min.css" rel="stylesheet" />-->
+     <link href="https://componentes.cnig.es/api-core/plugins/viewmanagement/viewmanagement.ol.min.css" rel="stylesheet" />
+ <script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/viewmanagement/viewmanagement.ol.min.js"></script>     
+    <link href="https://componentes.cnig.es/api-core/plugins/toc/toc.ol.min.css" rel="stylesheet" />              
+    <style type="text/css">
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Contenedor principal del mapa -->
+    <div id="mapjs" class="m-container"></div>
+    <!-- Ficheros javascript de la API -->
+    <script type="text/javascript" src="https://componentes.cnig.es/api-core/vendor/browser-polyfill.js"></script>
+    <script type="text/javascript" src="https://componentes.cnig.es/api-core/js/apiign.ol.min.js"></script>
+    <script type="text/javascript" src="https://componentes.cnig.es/api-core/js/configuration.js"></script>
+
+    <script type="text/javascript">
+
+        // Configuración del mapa
+        M.proxy(false)
+        const mapjs = M.map({
+            container: 'mapjs', //id del contenedor del mapa
+            controls: [],
+            zoom: 5,
+            maxZoom: 20,
+            minZoom: 1,
+            center: [-467062.8225, 4683459.6216]
+        });
+
+        // Configuración de las capas
+        const layer = new M.layer.KML({
+            url: 'https://sota.jorge.red/summits.kml',
+            name:  'delegacionesIGN',
+            extract: true,
+            legend: 'Delegaciones IGN',
+            transparent: true,
+          });
+
+        let estilo_base = new M.style.Generic({
+            point: {
+                label: {
+                    text: '🏠',
+                    color: 'red',
+                    scale: 2, 
+                    align: M.style.align.CENTER, 
+                    baseline: M.style.baseline.MIDDLE, 
+                }
+            }
+        });
+        // Se parametriza las opciones de la agrupación
+        let clusterOptions = {
+                  // Se añaden los rangos y los estilos a cada rango
+                  ranges: [{
+                    min: 2,
+                    max: 5,
+                    style: new M.style.Generic({point:{
+                      radius: 10, 
+                        fill: {  
+                          color: 'green',
+                          opacity: 0.5
+                        },
+                        stroke: {
+                          color: '#FF0000'
+                        }
+                    }}),
+                }, {
+                    min: 5,
+                    max: 15,
+                    style: new M.style.Generic({point:{
+                      
+                      radius: 20, 
+                      fill: {  
+                        color: 'blue',
+                        opacity: 0.5
+                      },
+                      stroke: {
+                        color: '#FF0000'
+                      }
+                    
+                    }}),
+
+                }, {
+                    min: 15,
+                    max: Infinity,
+                    style: new M.style.Generic({point:{
+                      
+                      radius: 30, 
+                      fill: {  
+                        color: 'orange',
+                        opacity: 0.5
+                      },
+                      stroke: {
+                        color: '#FF0000'
+                      }
+                    
+                    }}),
+
+                }
+            ],
+            // Se añade la parametrización para los cluster o agrupaciones
+            animated: true,
+            hoverInteraction: true,
+            displayAmount: true,
+            selectInteraction: true,
+            distance: 80,
+            label: {          
+              font: 'bold 19px Comic Sans MS', 
+              color: '#FFFFFF'
+            }
+        };
+        
+        // Se parametrizan las opciones propias de OpenLayers
+        let vendorParameters = {
+            distanceSelectFeatures: 25,
+            convexHullStyle: {
+                fill: {
+                    color: 'black',
+                    opacity: 0.5
+                },
+                stroke: {
+                    color: 'red',
+                    width: 1
+                }
+            }
+        }
+
+        let clusterStyle = new M.style.Cluster(clusterOptions, vendorParameters);
+        let composite = clusterStyle.add(estilo_base);
+        layer.setStyle(composite);
+
+        mapjs.addLayers([layer]);
+
+        layer.on(M.evt.SELECT_FEATURES, function (features, evt) {
+            // se puede comprobar si el elemento seleccionado es un cluster o no para quitar el popup, por ejemplo
+            if (features[0] instanceof M.ClusteredFeature) {
+                console.log('Es un cluster');
+                document.getElementsByClassName("m-popup m-collapsed")[0].hidden = true;
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>
