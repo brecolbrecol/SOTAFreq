@@ -16,6 +16,7 @@
 		<link href="https://componentes.cnig.es/api-core/plugins/toc/toc.ol.min.css" rel="stylesheet" />              
 		<link href="https://componentes.cnig.es/api-core/plugins/measurebar/measurebar.ol.min.css" rel="stylesheet" />
 	        <link href="https://componentes.cnig.es/api-core/plugins/queryattributes/queryattributes.ol.min.css" rel="stylesheet" />
+		 <link href="https://componentes.cnig.es/api-core/plugins/buffer/buffer.ol.min.css" rel="stylesheet" />
 		<style type="text/css">
 			html,
 			body {
@@ -42,6 +43,7 @@
 		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/toc/toc.ol.min.js"></script> 
 		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/measurebar/measurebar.ol.min.js"></script>
        	        <script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/queryattributes/queryattributes.ol.min.js"></script>
+		 <script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/buffer/buffer.ol.min.js"></script>
 		<script type="text/javascript">
 // Configuración del mapa
 const mapjs = M.map({
@@ -62,7 +64,7 @@ const layerinicial = new M.layer.WMS({
 }, {});
 
 const kml = new M.layer.KML({
-	url: 'http://jorge.red/sota/summits2023r1.kml',
+	url: 'http://jorge.red/sota/summits2023r2.kml',
 	name:  'cumbres2023',
 	extract: true,
 	legend: 'Cumbres anunciadas JUL 2023',
@@ -131,6 +133,15 @@ const mpmeasure = new M.plugin.MeasureBar({
 	  collapsed: true,
 });
 
+
+const mparea = new M.plugin.Buffer({
+	  position: 'TR',
+          collapsible: true,
+          collapsed: true,
+	  tooltip: "Area de cobertura",
+});
+
+
 const mptable = new M.plugin.QueryAttributes({
   position: 'TL',
   collapsed: true,
@@ -162,6 +173,7 @@ mapjs.addPlugin(mp2);
 mapjs.addPlugin(mp3);
 mapjs.addPlugin(mp8);
 mapjs.addPlugin(mpmeasure);
+mapjs.addPlugin(mparea);
 mapjs.addPlugin(mptable);
 		</script>
 	</body>
