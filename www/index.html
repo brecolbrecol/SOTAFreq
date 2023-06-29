@@ -11,7 +11,6 @@
 		<!-- Estilos de los plugins añadidos -->
 		<link href="https://componentes.cnig.es/api-core/plugins/ignsearchlocator/ignsearchlocator.ol.min.css" rel="stylesheet" />           
 		<link href="https://componentes.cnig.es/api-core/plugins/attributions/attributions.ol.min.css" rel="stylesheet" />            
-		<link href="https://componentes.cnig.es/api-core/plugins/xylocator/xylocator.ol.min.css" rel="stylesheet" />               
 		<link href="https://componentes.cnig.es/api-core/plugins/sharemap/sharemap.ol.min.css" rel="stylesheet" />            
 		<link href="https://componentes.cnig.es/api-core/plugins/backimglayer/backimglayer.ol.min.css" rel="stylesheet" />
 		<link href="https://componentes.cnig.es/api-core/plugins/toc/toc.ol.min.css" rel="stylesheet" />              
@@ -72,7 +71,6 @@ window.onload = function () {
 		<!-- Ficheros  javascript de los plugins añadidos-->
 		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/ignsearchlocator/ignsearchlocator.ol.min.js"></script>        
 		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/attributions/attributions.ol.min.js"></script>         
-		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/xylocator/xylocator.ol.min.js"></script>         
 		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/sharemap/sharemap.ol.min.js"></script>        
 		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/backimglayer/backimglayer.ol.min.js"></script> 
 		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/toc/toc.ol.min.js"></script> 
@@ -127,9 +125,6 @@ const mp3 = new M.plugin.ShareMap({
 	baseUrl: 'https://componentes.cnig.es/api-core/',
 	position: 'BR',
 });
-const mp4 = new M.plugin.XYLocator({
-	position: 'TL',
-});
 
 const mp8 = new M.plugin.TOC({
 	collapsed: true,
@@ -176,7 +171,6 @@ mapjs.addPlugin(mpbase);
 mapjs.addPlugin(mp);
 mapjs.addPlugin(mp2);
 mapjs.addPlugin(mp3);
-mapjs.addPlugin(mp4);
 mapjs.addPlugin(mp8);
 mapjs.addPlugin(mpmeasure);
 		</script>
