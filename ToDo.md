@@ -19,6 +19,10 @@ https://fly.io/
 * [ ] get summmit day alerts and show frequency and callsign from it
 * [ ] warn if callsign is different from list
 
+## Output format
+
+* [ ] GeoJSON, try listing more atributes.
+
 ## Minimun requirements
 
 * Expects xls (csv)  { summit, frequency, activator(s) }
