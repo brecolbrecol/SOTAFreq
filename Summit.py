@@ -15,10 +15,14 @@ class Summit:
         kml.altitudemode = simplekml.AltitudeMode.absolute
         kml.networklinkcontrol.minrefreshperiod = 1 
         for summit in Summit.summits.values():
-            description = summit.name + " (" + str(summit.altitude) + "m) - " + summit.activator + ", " + summit.freq
+            description = summit.activator + ", " + summit.freq + " - " + summit.name + " (" + str(summit.altitude) + "m)" 
             point = kml.newpoint(description=description,name=summit.reference,
                          coords=[(summit.longitude, summit.latitude,summit.altitude)])  # lon, lat, optional height
             point.style.iconstyle.icon.href = 'https://sota.jorge.red/pointers/icon' + str(summit.points) + '.png'
+            point.extendeddata.newdata(name="freq", value=summit.freq, displayname="Frecuencia")
+            point.extendeddata.newdata(name="activator", value=summit.activator, displayname="Activador(es)")
+            point.extendeddata.newdata(name="altitude", value=summit.altitude, displayname="Altitud")
+            point.extendeddata.newdata(name="points", value=summit.points, displayname="Puntos")
         # save KML to a file
         kml.save("test.kml")
         

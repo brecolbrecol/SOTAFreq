@@ -15,6 +15,7 @@
 		<link href="https://componentes.cnig.es/api-core/plugins/backimglayer/backimglayer.ol.min.css" rel="stylesheet" />
 		<link href="https://componentes.cnig.es/api-core/plugins/toc/toc.ol.min.css" rel="stylesheet" />              
 		<link href="https://componentes.cnig.es/api-core/plugins/measurebar/measurebar.ol.min.css" rel="stylesheet" />
+	        <link href="https://componentes.cnig.es/api-core/plugins/queryattributes/queryattributes.ol.min.css" rel="stylesheet" />
 		<style type="text/css">
 			html,
 			body {
@@ -23,45 +24,10 @@
 				height: 100%;
 				overflow: hidden;
 			}
-/* hidden on default */
-div#popup { display: none; }
-
-/* use a media query to filter small devices */
-@media only screen and (max-device-width:480px) {
-    /* show the popup */
-    div#popup { display: block; padding: 20px; background-image: url("https://sota.jorge.red/img/fondo.png")  }
-}
 		</style>
 	</head>
 
 	<body>
-		<script type="text/javascript">
-function PopUp(hideOrshow) {
-	if (hideOrshow == 'hide') document.getElementById('ac-wrapper').style.display = "none";
-	else document.getElementById('ac-wrapper').removeAttribute('style');
-}
-window.onload = function () {
-	setTimeout(function () {
-		PopUp('show');
-	});
-}
-		</script>
-		<div id="ac-wrapper" style='display:none'>
-			<div id="popup">
-				<h2>Modo de uso</h2>
-				<p>
-				Para ver la frecuencia asignada a cada cumbre:<br/>
-				<ol>
-					<li>Pulsa sobre la cumbre.</li>
-					<li>Despliega hacia arriba el texto con la referencia en fondo blanco.</li>
-				</ol>
-				<center>
-					<input type="submit" name="cerrar" value="Cerrar" onClick="PopUp('hide')" />
-				</center>
-				</p>
-			</div>
-		</div>
-
 		<!-- Contenedor principal del mapa -->
 		<div id="mapjs" class="m-container"></div>
 		<!-- Ficheros javascript de la API -->
@@ -75,7 +41,7 @@ window.onload = function () {
 		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/backimglayer/backimglayer.ol.min.js"></script> 
 		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/toc/toc.ol.min.js"></script> 
 		<script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/measurebar/measurebar.ol.min.js"></script>
-
+       	        <script type="text/javascript" src="https://componentes.cnig.es/api-core/plugins/queryattributes/queryattributes.ol.min.js"></script>
 		<script type="text/javascript">
 // Configuración del mapa
 const mapjs = M.map({
@@ -162,17 +128,41 @@ const mpbase = new M.plugin.BackImgLayer({
 
 const mpmeasure = new M.plugin.MeasureBar({
 	  position: 'TR',
-	  collapsed: false,
+	  collapsed: true,
 });
 
+const mptable = new M.plugin.QueryAttributes({
+  position: 'TL',
+  collapsed: true,
+  collapsible: true,
+  tooltip: "Lista de cumbres, frecuencias y activadores",
+  filters: true,
+  configuration: {
+    layer: 'cumbres2023',
+    pk: 'id',
+    initialSort: { name: 'nombre', dir: 'asc' },
+    columns: [
+      {
+          name: 'id',
+          alias: 'FrequenciesList',
+          visible: false,
+          searchable: true ,
+          showpanelinfo: true,
+          align: 'right',
+          type: 'string'},
+      { name: 'name', alias: 'Referencia', visible: true, searchable: true, showpanelinfo: true, align: 'left', type: 'string'},
+      { name: 'description', alias: 'Activator(es), frecuencia - info', visible: true, searchable: true, showpanelinfo: true, align: 'left', type: 'string'},
+    ],
+  }
+});
 
 mapjs.addPlugin(mpbase);
-
 mapjs.addPlugin(mp);
 mapjs.addPlugin(mp2);
 mapjs.addPlugin(mp3);
 mapjs.addPlugin(mp8);
 mapjs.addPlugin(mpmeasure);
+mapjs.addPlugin(mptable);
 		</script>
 	</body>
 </html>
