@@ -14,9 +14,9 @@ class Summit:
     def create_kml_of_summits():
         kml = simplekml.Kml()
         kml.altitudemode = simplekml.AltitudeMode.absolute
-        kml.networklinkcontrol.minrefreshperiod = 1 
+        kml.networklinkcontrol.minrefreshperiod = 1
         for summit in Summit.summits.values():
-            description = summit.activator + ", " + summit.freq + " - " + summit.name + " (" + str(summit.altitude) + "m)" 
+            description = summit.activator + ", " + summit.freq + " - " + summit.name + " (" + str(summit.altitude) + "m)"
             point = kml.newpoint(description=description,name=summit.reference,
                          coords=[(summit.longitude, summit.latitude,summit.altitude)])  # lon, lat, optional height
             point.style.iconstyle.icon.href = 'https://sota.jorge.red/pointers/icon' + str(summit.points) + '.png'
