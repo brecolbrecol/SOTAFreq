@@ -107,10 +107,10 @@ if __name__ == "__main__":
         f_bearing.write("# BEARINGS\n")
         for summit_reference in sorted(Summit.summits.keys()):
             summit = Summit.summits[summit_reference]
-            f_bearing.write("\n## FROM " + summit_reference + " - " + summit.name + "\n")
-            f_bearing.write("SUMMIT REF\tFORWARD\tBACK\tFREQUENCY\tDISTANCE\n")
+            f_bearing.write("\n## FROM " + summit_reference + " - " + summit.name + " (" + str(summit.altitude) + " msnm) [" + str(summit.points) + " pts]\n")
+            f_bearing.write("SUMMIT REF\tFORWARD\tBACK\tFREQUENCY\tDISTANCE & ACTIVATOR(S)\n")
             for other_summit_reference in sorted(Summit.summits.keys()):
                 other_summit = Summit.summits[other_summit_reference]
                 fwd_azimuth, back_azimuth, distance = summit.calculate_bearings(other_summit)
-                f_bearing.write(other_summit_reference + "\t" + str(round(fwd_azimuth,2)) + "\t" + str(round(back_azimuth,2)) + "\t" + other_summit.freq + " MHz\t" + str(round((distance/1000),2)) + "km\n")
+                f_bearing.write(other_summit_reference + "\t" + str(round(fwd_azimuth,2)) + "\t" + str(round(back_azimuth,2)) + "\t" + other_summit.freq + " MHz\t" + str(round((distance/1000),2)) + " km  " + other_summit.activator + "\n")
     print("DONE")
