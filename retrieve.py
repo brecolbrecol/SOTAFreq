@@ -1,4 +1,6 @@
+#!/usr/bin/env python3
 import requests
+
 
 def get_all_summits_data():
     """
@@ -10,14 +12,14 @@ def get_all_summits_data():
     try:
         # Make GET request to SOTA API endpoint
         response = requests.get("https://api.sota.org.uk/api/summits")
-        
+
         # Check if request was successful
         if response.status_code != 200:
             raise Exception("Failed to retrieve summits data")
-        
+
         # Extract summit data from response
         summits_data = response.json()
-        
+
         # Return list of summit data
         return summits_data
     except Exception as e:
@@ -25,6 +27,7 @@ def get_all_summits_data():
         #print(f"Error: {e}")
         print("Error: ")
         return []
+
 
 summits_data = get_all_summits_data()
 print(summits_data)
