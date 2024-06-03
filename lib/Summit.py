@@ -6,6 +6,7 @@ from pprint import pprint
 
 import simplekml
 from QTH import QTH
+from FrequenciesAssign import FrequenciesAssign
 
 
 class Summit(QTH):
@@ -99,23 +100,13 @@ class Summit(QTH):
                         print("WARNING: ignoring reference " + str(reference))
 
 
-    @classmethod
-    def assignFreqs(cls):
-        for summit_reference in sorted(cls.summits.keys()):
-            if not cls.available_frequencies:
-                # ToDo: implement freq reuse algorithm
-                print("WARNING: no free frequency, reusing frequencies since " + summit_reference)
-                cls.available_frequencies = cls.set_available_frequencies.copy()
-            freq = cls.available_frequencies.pop()
-            cls.summits[summit_reference].freq = freq
-
 if __name__ == "__main__":
-    print("Free frequencies before assigment: (" + str(len(Summit.available_frequencies)) + ") " +
-          str(Summit.available_frequencies))
+    print("Free frequencies before assigment: (" + str(len(FrequenciesAssign.frequencies_2m_fm)) + ") " +
+          str(FrequenciesAssign.frequencies_2m_fm))
     Summit.fromCSV()
-    Summit.assignFreqs()
-    print("Free frequencies after assigment: (" + str(len(Summit.available_frequencies)) + ") " +
-          str(Summit.available_frequencies))
+    Summit.summits = FrequenciesAssign().generate(Summit.summits)
+    print("Free frequencies after assigment: (" + str(len(FrequenciesAssign.frequencies_2m_fm)) + ") " +
+          str(FrequenciesAssign.frequencies_2m_fm))
 
     print("\nGenerating KML... ", end='')
     Summit.create_kml_of_summits()

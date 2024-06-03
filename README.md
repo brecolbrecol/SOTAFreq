@@ -13,6 +13,18 @@ It would be great having a list of known local used frequencies for each zone.
 
 First aproximation: `LOS iif d ≤ 250 km`.
 
+
+## Maximum Distance Between Reused Frequencies Algorithm
+
+1. Compute how many reused frequencies would be needed.
+1. Compute distances between summits.
+1. Calculate summit score coefficient (SSC) for each pairs.
+1. Order set of pairs by SSC.
+1. Assign the same frequency to each pair element until there is enough free frequencies.
+
+### SSC calculus
+`SSC = distance * (1 - ((summit_points1 + summit_points2)/100)
+
 ## Minimun distance algorithm
 
 1. Choose the highest summit.
