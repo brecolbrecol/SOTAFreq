@@ -11,12 +11,6 @@ from FrequenciesAssign import FrequenciesAssign
 
 class Summit(QTH):
     summits = {}
-    set_available_frequencies = [
-        "145.400", "145.425", "145.450", "145.475", "145.525", "145.550", "145.200", "145.225", "145.250",
-        "145.275", "145.300", "145.325", "145.350", "145.375", "144.525", "144.550", "144.575", "144.625", "144.725",
-        "144.750", "144.775"
-    ]
-    available_frequencies = set_available_frequencies.copy()
 
     @classmethod
     def create_kml_of_summits(cls):
