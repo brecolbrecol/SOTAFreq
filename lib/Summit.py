@@ -84,17 +84,13 @@ class Summit(QTH):
         with open(filename, newline='') as csvfile:
             reader = csv.DictReader(csvfile, delimiter=';')
             for row in reader:
-                reference = row['CIMA']
-                activator = row['ACTIVADOR']
+                reference = row.get('CIMA')
+                activator = row.get('ACTIVADOR')
+                freq = row.get('FRECUENCIA')
                 if reference in cls.summits:
                     cls.summits[reference].activator += ", " + activator
                     print("INFO: new " + reference + " activators: " + cls.summits[reference].activator)
                 else:
-                    freq = None
-                    if not cls.available_frequencies:
-                        print("WARNING: no free frequency, reusing frequencies since " + reference) # ToDo: implement freq reuse algorithm
-                        cls.available_frequencies = cls.set_available_frequencies.copy()
-                    freq = cls.available_frequencies.pop()
                     try:
                         if reference :
                             new_summit = cls(reference, activator=activator, freq=freq)
@@ -106,19 +102,18 @@ class Summit(QTH):
     @classmethod
     def assignFreqs(cls):
         for summit_reference in sorted(cls.summits.keys()):
-            if cls.available_frequencies:
-                summit = cls.summits[summit_reference]
-                summit.freq = cls.available_frequencies.pop()
-            else:
-                print("WARNING: no free frequency for " + reference)  # ToDo: implement freq reuse algorithm
-                
-
+            if not cls.available_frequencies:
+                # ToDo: implement freq reuse algorithm
+                print("WARNING: no free frequency, reusing frequencies since " + summit_reference)
+                cls.available_frequencies = cls.set_available_frequencies.copy()
+            freq = cls.available_frequencies.pop()
+            cls.summits[summit_reference].freq = freq
 
 if __name__ == "__main__":
     print("Free frequencies before assigment: (" + str(len(Summit.available_frequencies)) + ") " +
           str(Summit.available_frequencies))
     Summit.fromCSV()
-    #Summit.assignFreqs()
+    Summit.assignFreqs()
     print("Free frequencies after assigment: (" + str(len(Summit.available_frequencies)) + ") " +
           str(Summit.available_frequencies))
 
