@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Style id="5">
+            <IconStyle id="6">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="7">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="8">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="16">
+            <IconStyle id="17">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="18">
+                    <href>https://sota.jorge.red/pointers/icon4.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="19">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="27">
+            <IconStyle id="28">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="29">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="30">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="38">
+            <IconStyle id="39">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="40">
+                    <href>https://sota.jorge.red/pointers/icon6.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="41">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="49">
+            <IconStyle id="50">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="51">
+                    <href>https://sota.jorge.red/pointers/icon6.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="52">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="60">
+            <IconStyle id="61">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="62">
+                    <href>https://sota.jorge.red/pointers/icon2.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="63">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="71">
+            <IconStyle id="72">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="73">
+                    <href>https://sota.jorge.red/pointers/icon4.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="74">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="82">
+            <IconStyle id="83">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="84">
+                    <href>https://sota.jorge.red/pointers/icon2.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="85">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="93">
+            <IconStyle id="94">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="95">
+                    <href>https://sota.jorge.red/pointers/icon1.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="96">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="104">
+            <IconStyle id="105">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="106">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="107">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="115">
+            <IconStyle id="116">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="117">
+                    <href>https://sota.jorge.red/pointers/icon4.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="118">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="126">
+            <IconStyle id="127">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="128">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="129">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="137">
+            <IconStyle id="138">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="139">
+                    <href>https://sota.jorge.red/pointers/icon4.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="140">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="148">
+            <IconStyle id="149">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="150">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="151">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="159">
+            <IconStyle id="160">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="161">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="162">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="170">
+            <IconStyle id="171">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="172">
+                    <href>https://sota.jorge.red/pointers/icon6.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="173">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="181">
+            <IconStyle id="182">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="183">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="184">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="192">
+            <IconStyle id="193">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="194">
+                    <href>https://sota.jorge.red/pointers/icon8.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="195">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="203">
+            <IconStyle id="204">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="205">
+                    <href>https://sota.jorge.red/pointers/icon4.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="206">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="214">
+            <IconStyle id="215">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="216">
+                    <href>https://sota.jorge.red/pointers/icon4.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="217">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="225">
+            <IconStyle id="226">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="227">
+                    <href>https://sota.jorge.red/pointers/icon8.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="228">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="236">
+            <IconStyle id="237">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="238">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="239">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="247">
+            <IconStyle id="248">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="249">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="250">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="258">
+            <IconStyle id="259">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="260">
+                    <href>https://sota.jorge.red/pointers/icon4.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="261">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="269">
+            <IconStyle id="270">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="271">
+                    <href>https://sota.jorge.red/pointers/icon4.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="272">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="280">
+            <IconStyle id="281">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="282">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="283">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="291">
+            <IconStyle id="292">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="293">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="294">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="302">
+            <IconStyle id="303">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="304">
+                    <href>https://sota.jorge.red/pointers/icon4.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="305">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="313">
+            <IconStyle id="314">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="315">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="316">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="324">
+            <IconStyle id="325">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="326">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="327">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="335">
+            <IconStyle id="336">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="337">
+                    <href>https://sota.jorge.red/pointers/icon8.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="338">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Style id="346">
+            <IconStyle id="347">
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="348">
+                    <href>https://sota.jorge.red/pointers/icon10.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle id="349">
+                <color>ffffffff</color>
+                <colorMode>normal</colorMode>
+                <scale>1.1</scale>
+            </LabelStyle>
+        </Style>
+        <Placemark id="4">
+            <name>Agujas, Peña</name>
+            <description>EA1AER, 145,475 - EA1/LE-023 (2143m)</description>
+            <styleUrl>#5</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,475</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA1AER</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>2143</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="3">
+                <coordinates>-5.40147,43.03779,2143</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="15">
+            <name>Mofrecho</name>
+            <description>EA2GM, 145,525 - EA1/AT-281 (899m)</description>
+            <styleUrl>#16</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,525</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA2GM</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>899</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>4</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="14">
+                <coordinates>-5.04127,43.40755,899</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="26">
+            <name>Cuchillón</name>
+            <description>EA2EXN, 145,425 - EA1/PL-006 (2173m)</description>
+            <styleUrl>#27</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,425</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA2EXN</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>2173</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="25">
+                <coordinates>-4.39095,43.0266,2173</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="37">
+            <name>Valcabado</name>
+            <description>EA1FOV, 145,550 - EA1/PL-017 (1223m)</description>
+            <styleUrl>#38</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,550</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA1FOV</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1223</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>6</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="36">
+                <coordinates>-4.10261,42.78178,1223</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="48">
+            <name>Peñalara</name>
+            <description>EB1ESK, 144,575 - EA1/BU-040 (1295m)</description>
+            <styleUrl>#49</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>144,575</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EB1ESK</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1295</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>6</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="47">
+                <coordinates>-3.47364,42.13158,1295</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="59">
+            <name>Samiño</name>
+            <description>EB2FDT, 144,775 - EA2/SS-013 (932m)</description>
+            <styleUrl>#60</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>144,775</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EB2FDT</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>932</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>2</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="58">
+                <coordinates>-2.3072,43.1315,932</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="70">
+            <name>Gazume</name>
+            <description>EA2EVJ, 144,725 - EA2/SS-008 (1003m)</description>
+            <styleUrl>#71</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>144,725</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA2EVJ</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1003</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>4</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="69">
+                <coordinates>-2.1655,43.181,1003</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="81">
+            <name>Bianditz</name>
+            <description>EA2FDI, 144,700 - EA2/NV-136 (843m)</description>
+            <styleUrl>#82</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>144,700</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA2FDI</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>843</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>2</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="80">
+                <coordinates>-1.7908,43.2469,843</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="92">
+            <name>Ezkintza</name>
+            <description>EA2CCG, 145,450 - EA2/NV-148 (738m)</description>
+            <styleUrl>#93</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,450</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA2CCG</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>738</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>1</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="91">
+                <coordinates>-1.9199,42.652,738</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="103">
+            <name>El Turbón</name>
+            <description>EA3GNU, 144,675 - EA2/HU-064 (2491m)</description>
+            <styleUrl>#104</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>144,675</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA3GNU</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>2491</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="102">
+                <coordinates>0.5054,42.4174,2491</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="114">
+            <name>San Quílez</name>
+            <description>EA3EBN, 144,525 - EA2/HU-252 (1085m)</description>
+            <styleUrl>#115</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>144,525</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA3EBN</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1085</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>4</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="113">
+                <coordinates>0.47345,41.99331,1085</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="125">
+            <name>Moncayo</name>
+            <description>EA4HIH, EA4HCF, 145,225 - EA2/ZG-001 (2314m)</description>
+            <styleUrl>#126</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,225</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA4HIH, EA4HCF</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>2314</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="124">
+                <coordinates>-1.8397,41.7872,2314</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="136">
+            <name>Tossal de la Baltasana</name>
+            <description>EA3GRW, 145,250 - EA3/TA-003 (1200m)</description>
+            <styleUrl>#137</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,250</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA3GRW</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1200</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>4</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="135">
+                <coordinates>1.0043,41.326,1200</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="147">
+            <name>Serra do Marão</name>
+            <description>CT2HOV/P, 145,250 - CT/DL-001 (1416m)</description>
+            <styleUrl>#148</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,250</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>CT2HOV/P</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1416</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="146">
+                <coordinates>-7.8864,41.2486,1416</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="158">
+            <name>Serra de Montemuro</name>
+            <description>CT2IWW/P, 14?,??? - CT/BA-001 (1381m)</description>
+            <styleUrl>#159</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>14?,???</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>CT2IWW/P</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1381</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="157">
+                <coordinates>-7.9875,40.974,1381</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="169">
+            <name>Cabeza Arcon</name>
+            <description>EA4ICF, 14?,??? - EA4/MD-053 (1558m)</description>
+            <styleUrl>#170</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>14?,???</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA4ICF</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1558</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>6</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="168">
+                <coordinates>-3.7289,40.8466,1558</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="180">
+            <name>Puigmal</name>
+            <description>EA3IKB, 144,550 - EA3/GI-002 (2909m)</description>
+            <styleUrl>#181</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>144,550</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA3IKB</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>2909</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="179">
+                <coordinates>2.1168,42.3833,2909</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="191">
+            <name>Taga</name>
+            <description>EA3O, 144,625 - EA3/GI-014 (2039m)</description>
+            <styleUrl>#192</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>144,625</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA3O</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>2039</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>8</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="190">
+                <coordinates>2.2099,42.2808,2039</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="202">
+            <name>Castell de Sant Alis</name>
+            <description>EA3IED, EA3HQR, 145,525 - EA3/LL-050 (1675m)</description>
+            <styleUrl>#203</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,525</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA3IED, EA3HQR</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1675</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>4</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="201">
+                <coordinates>0.7666,42.0399,1675</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="213">
+            <name>San Cristóbal</name>
+            <description>EA4DE, 145,475 - EA4/CU-046 (1066m)</description>
+            <styleUrl>#214</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,475</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA4DE</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1066</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>4</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="212">
+                <coordinates>-2.787,40.3654,1066</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="224">
+            <name>Ermita de Alto Rey</name>
+            <description>EA4IZ, EA4IEM, 145,350 - EA4/GU-050 (1851m)</description>
+            <styleUrl>#225</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,350</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA4IZ, EA4IEM</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1851</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>8</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="223">
+                <coordinates>-3.0599,41.1652,1851</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="235">
+            <name>Cabezas de Hierro</name>
+            <description>EA4GDK, 145,325 - EA4/MD-002 (2380m)</description>
+            <styleUrl>#236</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,325</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA4GDK</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>2380</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="234">
+                <coordinates>-3.933,40.7994,2380</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="246">
+            <name>Tres Provincias</name>
+            <description>EA4DON, EA4DOS, 145,300 - EA4/MD-012 (2127m)</description>
+            <styleUrl>#247</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,300</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA4DON, EA4DOS</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>2127</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="245">
+                <coordinates>-3.5397,41.165,2127</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="257">
+            <name>Cabeza Antón</name>
+            <description>EA9ADD, 145,500 - EA4/MD-032 (1401m)</description>
+            <styleUrl>#258</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,500</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA9ADD</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1401</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>4</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="256">
+                <coordinates>-3.4651,40.957,1401</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="268">
+            <name>Torrejón</name>
+            <description>EA7RX, 145,275 - EA4/MD-044 (1293m)</description>
+            <styleUrl>#269</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,275</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA7RX</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1293</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>4</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="267">
+                <coordinates>-3.4513,40.9422,1293</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="279">
+            <name>Siete Picos</name>
+            <description>EA4GVU, 144,700 - EA1/SG-005 (2137m)</description>
+            <styleUrl>#280</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>144,700</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA4GVU</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>2137</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="278">
+                <coordinates>-4.0324,40.78161,2137</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="290">
+            <name>Montón de Trigo</name>
+            <description>EA4HFO, 144,725 - EA1/SG-016 (2157m)</description>
+            <styleUrl>#291</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>144,725</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA4HFO</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>2157</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="289">
+                <coordinates>-4.07112,40.80009,2157</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="301">
+            <name>Noez</name>
+            <description>EA4IS, 145,400 - EA4/TO-054 (1034m)</description>
+            <styleUrl>#302</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,400</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA4IS</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1034</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>4</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="300">
+                <coordinates>-4.2017,39.7485,1034</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="312">
+            <name>Serrota</name>
+            <description>EA4HGT, 144,775 - EA1/AV-004 (2290m)</description>
+            <styleUrl>#313</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>144,775</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA4HGT</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>2290</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="311">
+                <coordinates>-5.07868,40.49926,2290</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="323">
+            <name>Pico Zapatero</name>
+            <description>EA4GUO, 144,675 - EA1/AV-008 (2157m)</description>
+            <styleUrl>#324</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>144,675</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA4GUO</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>2157</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="322">
+                <coordinates>-4.87023,40.49215,2157</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="334">
+            <name>Peña de Moratalla</name>
+            <description>EA5PY, 145,550 - EA5/AB-017 (1974m)</description>
+            <styleUrl>#335</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,550</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA5PY</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>1974</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>8</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="333">
+                <coordinates>-2.3289,38.0675,1974</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="345">
+            <name>Veleta</name>
+            <description>EA7GV, EA7KNC, 145,450 - EA7/GR-002 (3395m)</description>
+            <styleUrl>#346</styleUrl>
+            <ExtendedData>
+                <Data name="freq">
+                    <value>145,450</value>
+                    <displayName>Frecuencia</displayName>
+                </Data>
+                <Data name="activator">
+                    <value>EA7GV, EA7KNC</value>
+                    <displayName>Activador(es)</displayName>
+                </Data>
+                <Data name="altitude">
+                    <value>3395</value>
+                    <displayName>Altitud</displayName>
+                </Data>
+                <Data name="points">
+                    <value>10</value>
+                    <displayName>Puntos</displayName>
+                </Data>
+            </ExtendedData>
+            <Point id="344">
+                <coordinates>-3.3657,37.056,3395</coordinates>
+            </Point>
+        </Placemark>
+    </Document>
+    <NetworkLinkControl>
+        <minRefreshPeriod>1</minRefreshPeriod>
+    </NetworkLinkControl>
+</kml>
