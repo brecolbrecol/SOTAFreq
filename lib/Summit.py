@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import argparse
 import csv
 import json
 import urllib.request
@@ -32,11 +33,11 @@ class Summit(QTH):
             point.extendeddata.newdata(name="altitude", value=summit.altitude, displayname="Altitud")
             point.extendeddata.newdata(name="points", value=summit.points, displayname="Puntos")
         # save KML to a file
-        kml.save("test.kml")
+        kml.save("www/summits2025r1.kml")
 
     @classmethod
     def generate_csv_frequencies(cls):
-        with open('frecuencias_asignadas.csv', 'w') as f_assigned_freqs:
+        with open('www/frecuencias_asignadas.csv', 'w') as f_assigned_freqs:
             fieldnames = ['SOTA_reference', 'frequency', 'call_sign(s)']
             writer = csv.DictWriter(f_assigned_freqs, fieldnames=fieldnames, delimiter=";")
 
@@ -95,9 +96,13 @@ class Summit(QTH):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Genera mapa de cumbres')
+    parser.add_argument('-i', '--input', type=str, help='Ruta del csv con los activadores', required=True)
+    args = parser.parse_args()
     print("Free frequencies before assigment: (" + str(len(FrequenciesAssign.frequencies_2m_fm)) + ") " +
           str(FrequenciesAssign.frequencies_2m_fm))
-    Summit.fromCSV()
+    print("Fichero: " + args.input)
+    Summit.fromCSV(filename=args.input)
     Summit.summits = FrequenciesAssign().generate(Summit.summits)
     print("Free frequencies after assigment: (" + str(len(FrequenciesAssign.frequencies_2m_fm)) + ") " +
           str(FrequenciesAssign.frequencies_2m_fm))
@@ -116,7 +121,7 @@ if __name__ == "__main__":
     print("")
 
     print("\nGenerating bearings... ", end='')
-    with open('bearing.txt', 'w') as f_bearing:
+    with open('www/bearing.txt', 'w') as f_bearing:
         f_bearing.write("# BEARINGS\n")
         for summit_reference in sorted(Summit.summits.keys()):
             summit = Summit.summits[summit_reference]

@@ -7,3 +7,6 @@ Opcionalmente, se pueden definir las frecuencias previamente o ajustarlas en lib
 3. Despliegue: `npx wrangler pages deploy ./www --project-name=vhf-fm-sota`
 
 Previamente se debe haber iniciado sesion con `npm wrangler login`
+
+
+```venv/bin/python3 lib/Summit.py -i inscritos_2025.csv && npx wrangler pages deploy ./www --project-name=vhf-fm-sota```
