@@ -6,6 +6,7 @@ import urllib.request
 from pprint import pprint
 
 import simplekml
+from datetime import datetime
 from QTH import QTH
 from FrequenciesAssign import FrequenciesAssign
 
@@ -33,7 +34,8 @@ class Summit(QTH):
             point.extendeddata.newdata(name="altitude", value=summit.altitude, displayname="Altitud")
             point.extendeddata.newdata(name="points", value=summit.points, displayname="Puntos")
         # save KML to a file
-        kml.save("www/summits2025r1.kml")
+        year = datetime.now().year
+        kml.save(f"www/summits{year}r1.kml")
 
     @classmethod
     def generate_csv_frequencies(cls):
