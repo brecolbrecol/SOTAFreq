@@ -98,14 +98,14 @@ class Summit(QTH):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Genera mapa de cumbres')
     parser.add_argument('-i', '--input', type=str, help='Ruta del csv con los activadores', required=True)
+    parser.add_argument('-f', '--freqs', help='Pide al programa que asigne aleatoriamente frecuencias', action='store_true')
     args = parser.parse_args()
-    print("Free frequencies before assigment: (" + str(len(FrequenciesAssign.frequencies_2m_fm)) + ") " +
-          str(FrequenciesAssign.frequencies_2m_fm))
     print("Fichero: " + args.input)
     Summit.fromCSV(filename=args.input)
-    Summit.summits = FrequenciesAssign().generate(Summit.summits)
-    print("Free frequencies after assigment: (" + str(len(FrequenciesAssign.frequencies_2m_fm)) + ") " +
-          str(FrequenciesAssign.frequencies_2m_fm))
+    if args.freqs:
+        print("Free frequencies before assigment: (" + str(len(FrequenciesAssign.frequencies_2m_fm)) + ") " + str(FrequenciesAssign.frequencies_2m_fm))
+        Summit.summits = FrequenciesAssign().generate(Summit.summits)
+        print("Free frequencies after assigment: (" + str(len(FrequenciesAssign.frequencies_2m_fm)) + ") " + str(FrequenciesAssign.frequencies_2m_fm))
 
     print("\nGenerating KML... ", end='')
     Summit.create_kml_of_summits()
