@@ -1,6 +1,6 @@
 1. Generar el fichero csv con formato similar al de `inscritos_*.csv`
 
-2. Ejecutar: `python lib/Summit.py -i inscritos_2024v2.csv`
+2. Ejecutar: `uv run lib/Summit.py -i inscritos_$(date +%Y).csv`, o si no está instalado `uv`: `python lib/Summit.py -i inscritos_2024v2.csv`
 
 Opcionalmente, se pueden definir las frecuencias previamente o ajustarlas en lib/FrequenciesAssign.py
 
