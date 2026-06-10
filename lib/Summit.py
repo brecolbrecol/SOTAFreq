@@ -119,7 +119,10 @@ if __name__ == "__main__":
 
     print("\nTOTAL SUMMITS: " + str(len(Summit.summits.values())))
     for summit in Summit.summits.values():
-        print(summit.reference + ": " + summit.freq, end=', ')
+        if summit.freq:
+            print(summit.reference + ": " + summit.freq, end=', ')
+        else:
+            print(summit.reference + ": " + summit.activator, end=', ')
     print("")
 
     print("\nGenerating bearings... ", end='')
