@@ -27,7 +27,7 @@ class Summit(QTH):
                                  coords=[(summit.longitude, summit.latitude, summit.altitude)
                                         ])  # lon, lat, optional height
             point.style.iconstyle.icon.href = '/pointers/icon' + str(summit.points) + '.png'
-            point.style.labelstyle.color = simplekml.Color.white
+            point.style.labelstyle.color = simplekml.Color.whitesmoke
             point.style.labelstyle.scale = 1.1
             point.extendeddata.newdata(name="freq", value=summit.freq, displayname="Frecuencia")
             point.extendeddata.newdata(name="activator", value=summit.activator, displayname="Activador(es)")

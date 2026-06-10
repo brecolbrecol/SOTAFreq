@@ -11,9 +11,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="8">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="16">
@@ -26,9 +26,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="19">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="27">
@@ -41,9 +41,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="30">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="38">
@@ -56,9 +56,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="41">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="49">
@@ -71,9 +71,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="52">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="60">
@@ -86,9 +86,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="63">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="71">
@@ -101,9 +101,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="74">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="82">
@@ -116,9 +116,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="85">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="93">
@@ -131,9 +131,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="96">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="104">
@@ -146,9 +146,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="107">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="115">
@@ -161,9 +161,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="118">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="126">
@@ -176,9 +176,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="129">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="137">
@@ -191,9 +191,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="140">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="148">
@@ -206,9 +206,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="151">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="159">
@@ -221,9 +221,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="162">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="170">
@@ -236,9 +236,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="173">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="181">
@@ -251,9 +251,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="184">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="192">
@@ -266,9 +266,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="195">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="203">
@@ -281,9 +281,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="206">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="214">
@@ -296,9 +296,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="217">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="225">
@@ -311,9 +311,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="228">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="236">
@@ -326,9 +326,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="239">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="247">
@@ -341,9 +341,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="250">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Style id="258">
@@ -356,9 +356,9 @@
                 </Icon>
             </IconStyle>
             <LabelStyle id="261">
-                <color>ffffffff</color>
+                <color>fff5f5f5</color>
                 <colorMode>normal</colorMode>
-                <scale>1.1</scale>
+                <scale>1.0</scale>
             </LabelStyle>
         </Style>
         <Placemark id="4">
