@@ -72,6 +72,7 @@ class Summit(QTH):
         self.reference = self.api_data_raw["summitCode"]
         self.points = self.api_data_raw["points"]
         self.valid = self.api_data_raw["valid"]
+        self.locator = self.api_data_raw["locator"]
         self.freq = freq
 
     def __str__(self):
@@ -131,7 +132,7 @@ if __name__ == "__main__":
         for summit_reference in sorted(Summit.summits.keys()):
             summit = Summit.summits[summit_reference]
             f_bearing.write("\n## FROM " + summit_reference + " - " + summit.name + " (" + str(summit.altitude) +
-                            " msnm) [" + str(summit.points) + " pts]\n")
+                            " msnm) [" + str(summit.points) + " pts] grid: " + summit.locator + "\n")
             f_bearing.write("SUMMIT REF\tFORWARD\tBACK\tFREQUENCY\tDISTANCE & ACTIVATOR(S)\n")
             for other_summit_reference in sorted(Summit.summits.keys()):
                 other_summit = Summit.summits[other_summit_reference]
